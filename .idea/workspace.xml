@@ -8,41 +8,41 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/d3-legend.js" afterPath="$PROJECT_DIR$/d3-legend.js" />
       <change beforePath="$PROJECT_DIR$/d3-legend.min.js" afterPath="$PROJECT_DIR$/d3-legend.min.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.css" afterPath="$PROJECT_DIR$/docs/final/attack-target/attack_target.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.js" afterPath="$PROJECT_DIR$/docs/final/attack-target/attack_target.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target_combo_data.csv" afterPath="$PROJECT_DIR$/docs/final/attack-target/attack_target_combo_data.csv" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/causes_of_death.csv" afterPath="$PROJECT_DIR$/docs/final/chances/causes_of_death.csv" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.css" afterPath="$PROJECT_DIR$/docs/final/chances/chances.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.js" afterPath="$PROJECT_DIR$/docs/final/chances/chances.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.csv" afterPath="$PROJECT_DIR$/docs/final/chances/data.csv" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.json" afterPath="$PROJECT_DIR$/docs/final/chances/data.json" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/index.html" afterPath="$PROJECT_DIR$/docs/final/chances/index.html" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/style.css" afterPath="$PROJECT_DIR$/docs/final/chances/style.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/waffle.js" afterPath="$PROJECT_DIR$/docs/final/chances/waffle.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/data.csv" afterPath="$PROJECT_DIR$/docs/final/explore-map/data.csv" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/global_data.csv" afterPath="$PROJECT_DIR$/docs/final/explore-map/global_data.csv" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/package.json" afterPath="$PROJECT_DIR$/docs/final/explore-map/package.json" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/terrorism.css" afterPath="$PROJECT_DIR$/docs/final/explore-map/terrorism.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/topojson.js" afterPath="$PROJECT_DIR$/docs/final/explore-map/topojson.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/visualization.js" afterPath="$PROJECT_DIR$/docs/final/explore-map/visualization.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/world-countries.json" afterPath="$PROJECT_DIR$/docs/final/explore-map/world-countries.json" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Light.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Light.ttf" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Medium.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Medium.ttf" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Regular.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Regular.ttf" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Bold.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Bold.ttf" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Light.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Light.ttf" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.css" afterPath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.min.js" afterPath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.min.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/group_filtered_data.json" afterPath="$PROJECT_DIR$/docs/final/groups/group_filtered_data.json" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.css" afterPath="$PROJECT_DIR$/docs/final/groups/groups.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.js" afterPath="$PROJECT_DIR$/docs/final/groups/groups.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.css" afterPath="$PROJECT_DIR$/docs/final/groups/switchery.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.js" afterPath="$PROJECT_DIR$/docs/final/groups/switchery.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/index.html" afterPath="$PROJECT_DIR$/docs/final/index.html" />
-      <change beforePath="$PROJECT_DIR$/docs/final/scrollytelling.css" afterPath="$PROJECT_DIR$/docs/final/scrollytelling.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.css" afterPath="$PROJECT_DIR$/docs/final/weapons/weapons.css" />
-      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.js" afterPath="$PROJECT_DIR$/docs/final/weapons/weapons.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons_sunburst_data.csv" afterPath="$PROJECT_DIR$/docs/final/weapons/weapons_sunburst_data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target_combo_data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/causes_of_death.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/waffle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/global_data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/terrorism.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/topojson.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/visualization.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/world-countries.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/group_filtered_data.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/scrollytelling.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons_sunburst_data.csv" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
       <change beforePath="$PROJECT_DIR$/docs/prototype/address_coord.xlsx" afterPath="$PROJECT_DIR$/docs/prototype/address_coord.xlsx" />
       <change beforePath="$PROJECT_DIR$/docs/prototype/data.csv" afterPath="$PROJECT_DIR$/docs/prototype/data.csv" />
@@ -66,12 +66,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+            <state relative-caret-position="533">
+              <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/docs/prototype/topojson.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -112,6 +112,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docs/prototype/data.csv" />
+        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
       </list>
     </option>
   </component>
@@ -142,6 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,8 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,11 +201,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
+      <workItem from="1524779245674" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2216000" />
+    <option name="totallyTimeSpent" value="2714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -212,20 +214,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -240,10 +242,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/prototype/data.csv">
+    <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -256,10 +258,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/topojson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+        <state relative-caret-position="533">
+          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
           <folding />
         </state>
       </provider>
