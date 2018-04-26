@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7b6ba0a-54be-4710-98e7-e9f49552466d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/d3-legend.js" afterPath="$PROJECT_DIR$/d3-legend.js" />
+      <change beforePath="$PROJECT_DIR$/d3-legend.min.js" afterPath="$PROJECT_DIR$/d3-legend.min.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.css" afterPath="$PROJECT_DIR$/docs/final/attack-target/attack_target.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.js" afterPath="$PROJECT_DIR$/docs/final/attack-target/attack_target.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target_combo_data.csv" afterPath="$PROJECT_DIR$/docs/final/attack-target/attack_target_combo_data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/causes_of_death.csv" afterPath="$PROJECT_DIR$/docs/final/chances/causes_of_death.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.css" afterPath="$PROJECT_DIR$/docs/final/chances/chances.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.js" afterPath="$PROJECT_DIR$/docs/final/chances/chances.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.csv" afterPath="$PROJECT_DIR$/docs/final/chances/data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.json" afterPath="$PROJECT_DIR$/docs/final/chances/data.json" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/index.html" afterPath="$PROJECT_DIR$/docs/final/chances/index.html" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/style.css" afterPath="$PROJECT_DIR$/docs/final/chances/style.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/chances/waffle.js" afterPath="$PROJECT_DIR$/docs/final/chances/waffle.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/data.csv" afterPath="$PROJECT_DIR$/docs/final/explore-map/data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/global_data.csv" afterPath="$PROJECT_DIR$/docs/final/explore-map/global_data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/package.json" afterPath="$PROJECT_DIR$/docs/final/explore-map/package.json" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/terrorism.css" afterPath="$PROJECT_DIR$/docs/final/explore-map/terrorism.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/topojson.js" afterPath="$PROJECT_DIR$/docs/final/explore-map/topojson.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/visualization.js" afterPath="$PROJECT_DIR$/docs/final/explore-map/visualization.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/world-countries.json" afterPath="$PROJECT_DIR$/docs/final/explore-map/world-countries.json" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Light.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Light.ttf" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Medium.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Medium.ttf" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Regular.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Bold.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Bold.ttf" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Light.ttf" afterPath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Light.ttf" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.css" afterPath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.min.js" afterPath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.min.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/group_filtered_data.json" afterPath="$PROJECT_DIR$/docs/final/groups/group_filtered_data.json" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.css" afterPath="$PROJECT_DIR$/docs/final/groups/groups.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.js" afterPath="$PROJECT_DIR$/docs/final/groups/groups.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.css" afterPath="$PROJECT_DIR$/docs/final/groups/switchery.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.js" afterPath="$PROJECT_DIR$/docs/final/groups/switchery.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/index.html" afterPath="$PROJECT_DIR$/docs/final/index.html" />
+      <change beforePath="$PROJECT_DIR$/docs/final/scrollytelling.css" afterPath="$PROJECT_DIR$/docs/final/scrollytelling.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.css" afterPath="$PROJECT_DIR$/docs/final/weapons/weapons.css" />
+      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.js" afterPath="$PROJECT_DIR$/docs/final/weapons/weapons.js" />
+      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons_sunburst_data.csv" afterPath="$PROJECT_DIR$/docs/final/weapons/weapons_sunburst_data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/data.csv" afterPath="$PROJECT_DIR$/docs/prototype/data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/global_data.csv" afterPath="$PROJECT_DIR$/docs/prototype/global_data.csv" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/index.html" afterPath="$PROJECT_DIR$/docs/prototype/index.html" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/package.json" afterPath="$PROJECT_DIR$/docs/prototype/package.json" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/terminal for installing stuff" afterPath="$PROJECT_DIR$/docs/prototype/terminal for installing stuff" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/terrorism.css" afterPath="$PROJECT_DIR$/docs/prototype/terrorism.css" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/topojson.js" afterPath="$PROJECT_DIR$/docs/prototype/topojson.js" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/visualization.js" afterPath="$PROJECT_DIR$/docs/prototype/visualization.js" />
+      <change beforePath="$PROJECT_DIR$/docs/prototype/world-countries.json" afterPath="$PROJECT_DIR$/docs/prototype/world-countries.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="visualization.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/prototype/data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docs/prototype/data.csv" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1658" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Map" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Map" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Map" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7b6ba0a-54be-4710-98e7-e9f49552466d" name="Default" comment="" />
+      <created>1524774985499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524774985499</updated>
+      <workItem from="1524774988132" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
