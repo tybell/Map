@@ -9,7 +9,7 @@
     var height = 500,
         width = 770;
 
-    var colorRangeStart = "#815f8e",
+    var colorRangeStart = "#315f8e",
         colorRangeEnd = "#b00c38";
 
     var svg = d3.select("#map")
@@ -19,10 +19,54 @@
         .append("g");
 
     var g = svg.append("g");
+    // Map rendering properties
+    var nyc_center = [-74,40.7];
+    var mapRatio = 1;
+    var mapRatioAdjuster = 100;
+    var projection = d3.geo.mercator()
+        .center(nyc_center)
+        .translate([width / 2, height / 2 + 50])
+        .scale(width * [mapRatio + mapRatioAdjuster])
+    var path = d3.geoPath().projection(projection);
 
+    var boroughs;
     d3.queue()
         .defer(d3.json, "boroughs.json")
         .await(ready)
+
+    function ready (error, data) {
+        loadAttackData();
+        boroughs = topojson.feature(data, data.objects.nyc_boroughs).features
+        drawCountries(data);
+    }
+
+    function drawCountries (data) {
+        g.selectAll(".boroughs")
+            .data(boroughs)
+            .enter().append("path")
+            .attr("class", "boroughs")
+            .attr("d", path)
+            .on('mouseover', function(d) {
+                d3.select(this).classed("selected", true)
+            })
+            .on('mouseout', function(d) {
+                d3.select(this).classed("selected", false)
+            })
+        /*            .on('mouseover', function(d) {
+                        d3.select(this).classed("selected", true)
+                        dataArray.forEach(function(entry) {
+                            if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
+                                updatePanel(entry);
+                            }
+                        });
+
+                    })
+                    .on('mouseout', function(d) {
+                        d3.select(this).classed("selected", false)
+                        updatePanelWorld();
+                    })*/
+    }
+
 
     // *********CARSON STUFF --- selecting data by year
     // load data and convert to array
@@ -30,7 +74,6 @@
     var dataArray;
     var globalData;
     var selectedYearDataArray;
-    var countries;
 
 
     function loadGlobalData() {
@@ -91,44 +134,6 @@
     }
     // *********END CARSON STUFF
 
-    var projection = d3.geoMercator()
-        .translate([width/2, height/2+50])
-        .scale(2000)
-
-    var path = d3.geoPath().projection(projection)
-
-    function ready (error, data) {
-        loadAttackData();
-        countries = topojson.feature(data, data.objects.nyc_boroughs).features
-        drawCountries(data);
-    }
-
-    function drawCountries (data) {
-        g.selectAll(".boroughs")
-            .data(boroughs)
-            .enter().append("path")
-            .attr("class", "boroughs")
-            .attr("d", path)
-            .on('mouseover', function(d) {
-                d3.select(this).classed("selected", true)
-            })
-            .on('mouseout', function(d) {
-                d3.select(this).classed("selected", false)
-            })
-/*            .on('mouseover', function(d) {
-                d3.select(this).classed("selected", true)
-                dataArray.forEach(function(entry) {
-                    if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
-                        updatePanel(entry);
-                    }
-                });
-
-            })
-            .on('mouseout', function(d) {
-                d3.select(this).classed("selected", false)
-                updatePanelWorld();
-            })*/
-    }
 
     function drawBubbles(attackData, radius, color) {
         // make bubbles on map
