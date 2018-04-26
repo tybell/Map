@@ -38,30 +38,6 @@
 		<em>*Note: data for 1993 is missing because it is not included in the Global Terrorism Database</em>
 	</div>
 
-	<div class="col-md-10 col-md-offset-1" id="writeup">
-		</br>
-		<h2>Team Members</h2>
-		<hr>
-		<p><strong>Carson Gulledge, Grace Qiu, Michelle Lee, Sheen Dudwadkar</strong></p>
-
-		</br></br>
-		<h2>Design Rationale</h2>
-		<hr>
-		<p>Our goal for this prototype was to display the most basic information that we thought a user would want to know upon hearing our topic -- how many people were killed in and how many attacks occurred in each country, bucketed by year. With this in mind, a map of the world was the basis of our design. This allowed locations to be clearly designated. We decided on using a slider at the bottom of the map to scrub between years. Time is classically associated as an x-axis construct, as it is an independent variable, thus guiding our choice for the slider’s location. We liked the scrubbing aspect provided by a slider, as it allows the user to “animate” the progression of attacks manually. </p>
-
-		<p>The next decision revolved around encoding the number of people killed and number of attacks into our map. Using circles to represent a terrorist event in a country was the natural decision, as the size of a circle is easily comparable. We chose to use circle radius to represent the number of people killed (using the square root for scaling purposes) because death is slightly more pertinent than number of attacks. We felt that color was the next appropriate channel to use, so this was allocated to encoding the number of attacks. Originally, we envisioned all of our circles being red, with more attacks trending towards a more intense red. This did not yield effective relative comparisons, so we had to rethink our color scheme. Blue and red are opposing colors, so having a gradient between them allows for better comparison. Red is more eye-catching and conotes danger, so a more red shade means more attacks happened. The circles were intentionally not shaded at full opacity so that large circles do not occlude smaller ones beneath. Both encodings are conveyed to the audience via a legend. We ensured that the key for bubble size accurately reflected the true bubble size of the data displayed on the map, and that the key for color gradient was broken into bins to aid in distinguishing colors.</p>
-
-		<p>Initially, we also thought about using animation to double-encode the number of attacks. In addition to just being shaded differently, circles would “pulse” in color, with frequency related to number of attacks. This would mean that places with many terrorist attacks would quickly flash red -- very attention-grabbing. We ended up scrapping this decision though, as it did not play nicely with scrubbing between the years; making the user wait on a year for a certain duration to acquire all the information provided by the visualization did not seem right.</p>
-
-		<p>Another decision involved how to display additional information. We experimented with tool-tipping at first but found it made the screen too cluttered. Our map only took about two-thirds of the screen width, so we settled on appending a static area to the left of it dedicated to displaying information. When not hovering over a country or its associated circle, we display aggregate information for the world. Hovering over a country will change this to be specific for that country. Additionally, hovering over a country or its associated circle will make the circle fully opaque and highlight the country darker to focus the user’s attention.</p>
-
-		<p>The last notable feature is zooming. Since some of the circles naturally overlap others at the default zoom level, zooming in is critical to allow users to mouse over all the data. We took care to resize the circles while zooming and cap the zoom at a reasonable point.</p>
-
-		</br></br>
-		<h2>Development Process</h2>
-		<hr>
-		<p>We heavily emphasized meeting as a team to come to unanimous decisions regarding what information we wanted to display and how we wanted to do so. Once we had a rough idea of the design, we began working on separate git branches to avoid stepping on each other’s toes. Subgoals that were split up among the team members included wrangling and culling the data, setting up a world map for our visualization, drawing bubbles for the data, sizing the bubbles correctly and dealing with zoom resizing, displaying bubbles based on a year selector slider, creating an effective legend, and implementing a color scheme. Learning D3 conventions and syntax was not “hard,” but it was not easy either and took a decent amount of time. Figuring out how to best load data and decide when it was able to be accessed (and in what scope) was confusing. We devoted around 50 people-hours total developing this prototype.</p>
-	</div>
 
 	<script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="https://d3js.org/topojson.v1.min.js"></script>

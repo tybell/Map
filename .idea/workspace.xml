@@ -8,41 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/d3-legend.js" afterPath="$PROJECT_DIR$/d3-legend.js" />
       <change beforePath="$PROJECT_DIR$/d3-legend.min.js" afterPath="$PROJECT_DIR$/d3-legend.min.js" />
-      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/attack-target/attack_target_combo_data.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/causes_of_death.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/chances.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/data.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/chances/waffle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/data.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/global_data.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/terrorism.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/topojson.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/visualization.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/explore-map/world-countries.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Light.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/AtlasGroteskWeb-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fonts/CanelaWeb-Light.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/fullpage/jquery.fullPage.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/group_filtered_data.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/groups.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/groups/switchery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/scrollytelling.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/final/weapons/weapons_sunburst_data.csv" afterPath="" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
       <change beforePath="$PROJECT_DIR$/docs/prototype/address_coord.xlsx" afterPath="$PROJECT_DIR$/docs/prototype/address_coord.xlsx" />
       <change beforePath="$PROJECT_DIR$/docs/prototype/data.csv" afterPath="$PROJECT_DIR$/docs/prototype/data.csv" />
@@ -70,8 +35,28 @@
       <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+            <state relative-caret-position="234">
+              <caret line="195" column="33" lean-forward="true" selection-start-line="194" selection-start-column="28" selection-end-line="195" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualization.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Map-master/docs/prototype/visualization.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="286" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="356" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -103,6 +88,8 @@
     <findStrings>
       <find>loadAttackData</find>
       <find>ready</find>
+      <find>topojson</find>
+      <find>zoom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +99,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docs/prototype/data.csv" />
+        <option value="$PROJECT_DIR$/docs/prototype/index.html" />
         <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
       </list>
     </option>
@@ -122,7 +110,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1658" />
@@ -201,15 +189,15 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
-      <workItem from="1524779245674" duration="498000" />
+      <workItem from="1524779245674" duration="1183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2714000" />
+    <option name="totallyTimeSpent" value="3399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -282,10 +270,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Map-master/docs/prototype/visualization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="286" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="356" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+        <state relative-caret-position="234">
+          <caret line="195" column="33" lean-forward="true" selection-start-line="194" selection-start-column="28" selection-end-line="195" selection-end-column="33" />
           <folding />
         </state>
       </provider>
