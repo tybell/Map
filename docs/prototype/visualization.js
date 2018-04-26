@@ -93,7 +93,7 @@
 
     var projection = d3.geoMercator()
         .translate([width/2, height/2+50])
-        .scale(148)
+        .scale(2000)
 
     var path = d3.geoPath().projection(projection)
 
