@@ -1,0 +1,111 @@
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+p, strong {
+	font-family: "Lato", sans-serif;
+}
+
+#container {
+	background: #fafafa;
+}
+
+#title {
+	text-align: center;
+	font-weight: bold;
+	color: #262626;
+	font-size: 22px;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+#panelInfo {
+	padding: 10px;
+	font-family: "Lato";
+	font-size: 16px;
+}
+#countryTitle {
+	font-size: 22px;
+}
+
+#legend {
+	font-size: 15px;
+}
+
+#note {
+	text-align: center;
+}
+
+#writeup {
+	margin-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #492a7c;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: right;
+}
+
+svg {
+  	background: #fafafa;
+}
+
+circle {
+	fill: #bb0a1e;
+}
+
+.country {
+	fill: #e6e6e6;
+	stroke: #bababa;
+	stroke-width: 0.15pt;
+	fill-opacity: 1;
+}
+
+.selected {
+	fill: gray;
+}
+
+.ticks {
+	font: 10px sans-serif;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+	stroke-linecap: round;
+}
+
+.track {
+	stroke: gray;
+	stroke-opacity: 0.3;
+	stroke-width: 10px;
+}
+
+.track-inset {
+	stroke: #e6e6e6;
+	stroke-width: 8px;
+}
+
+.track-overlay {
+	pointer-events: stroke;
+	stroke-width: 50px;
+	stroke: transparent;
+	cursor: crosshair;
+}
+
+.handle {
+	fill: #e6e6e6;
+	stroke: purple;
+	stroke-opacity: 0.5;
+	stroke-width: 1.25px;
+}
+
+.label {
+	font-weight: normal;
+}

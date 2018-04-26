@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Roulette</title>
+    <style>
+
+      .arc text {
+        font: 10px sans-serif;
+        text-anchor: middle;
+      }
+
+      .guide path {
+        stroke: #fff;
+      }
+
+    </style>
+    <link rel="stylesheet "type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div class="roulette-container">
+      <div class="spinners-header clearfix">
+        <div class="button-container">
+          <button type="button" class="spin-button">SPIN</button>
+        </div>
+        <div class="race-totals">
+          <!-- # of Democrats / # of Republicans will live here -->
+          <div class="race-total race-total--dem">
+            <h3>Democrats: 
+              <span class="race-total-value">??</span>
+            </h3>
+          </div>
+          <div class="race-total race-total--rep">
+            <h3>Republicans:  
+              <span class="race-total-value">??</span>
+            </h3>
+           
+          </div>
+        </div>
+      </div>
+      <div class="spinners-container">
+        <div class="race-category" id="race-democrat">
+          <h4 class="race-category-title">Likely Democratic</h4>
+        </div>
+        <div class="race-category" id="race-competetive">
+          <h4 class="race-category-title">Competetive</h4>
+        </div>
+        <div class="race-category" id="race-republican">
+          <h4 class="race-category-title">Likely Republican</h4>
+        </div>
+      </div>
+    </div>  
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="waffle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+attacktype1_txt,targtype1_txt,count
+Assassination,Business,813
+Assassination,Government (General),3535
+Assassination,Police,2078
+Assassination,Military,1177
+Assassination,Abortion Related,2
+Assassination,Airports & Aircraft,9
+Assassination,Government (Diplomatic),191
+Assassination,Educational Institution,308
+Assassination,Journalists & Media,490
+Assassination,Maritime,10
+Assassination,NGO,60
+Assassination,Other,5
+Assassination,Private Citizens & Property,3408
+Assassination,Religious Figures/Institutions,368
+Assassination,Telecommunication,3
+Assassination,Terrorists/Non-State Militia,499
+Assassination,Tourists,28
+Assassination,Transportation,52
+Assassination,Unknown,185
+Assassination,Utilities,3
+Assassination,Violent Political Party,388
+Armed Assault,Business,2089
+Armed Assault,Government (General),2950
+Armed Assault,Police,7279
+Armed Assault,Military,9080
+Armed Assault,Abortion Related,8
+Armed Assault,Airports & Aircraft,84
+Armed Assault,Government (Diplomatic),523
+Armed Assault,Educational Institution,521
+Armed Assault,Food or Water Supply,40
+Armed Assault,Journalists & Media,342
+Armed Assault,Maritime,70
+Armed Assault,NGO,200
+Armed Assault,Other,132
+Armed Assault,Private Citizens & Property,9204
+Armed Assault,Religious Figures/Institutions,711
+Armed Assault,Telecommunication,42
+Armed Assault,Terrorists/Non-State Militia,633
+Armed Assault,Tourists,83
+Armed Assault,Transportation,1352
+Armed Assault,Unknown,133
+Armed Assault,Utilities,98
+Armed Assault,Violent Political Party,388
+Bombing/Explosion,Business,10242
+Bombing/Explosion,Government (General),6877
+Bombing/Explosion,Police,8189
+Bombing/Explosion,Military,8783
+Bombing/Explosion,Abortion Related,33
+Bombing/Explosion,Airports & Aircraft,649
+Bombing/Explosion,Government (Diplomatic),1364
+Bombing/Explosion,Educational Institution,1829
+Bombing/Explosion,Food or Water Supply,173
+Bombing/Explosion,Journalists & Media,650
+Bombing/Explosion,Maritime,116
+Bombing/Explosion,NGO,189
+Bombing/Explosion,Other,157
+Bombing/Explosion,Private Citizens & Property,15359
+Bombing/Explosion,Religious Figures/Institutions,1713
+Bombing/Explosion,Telecommunication,542
+Bombing/Explosion,Terrorists/Non-State Militia,913
+Bombing/Explosion,Tourists,154
+Bombing/Explosion,Transportation,3564
+Bombing/Explosion,Unknown,1245
+Bombing/Explosion,Utilities,4749
+Bombing/Explosion,Violent Political Party,392
+Hijacking,Business,47
+Hijacking,Government (General),8
+Hijacking,Police,10
+Hijacking,Military,18
+Hijacking,Airports & Aircraft,216
+Hijacking,Government (Diplomatic),18
+Hijacking,Educational Institution,7
+Hijacking,Food or Water Supply,4
+Hijacking,Journalists & Media,3
+Hijacking,Maritime,38
+Hijacking,NGO,4
+Hijacking,Other,3
+Hijacking,Private Citizens & Property,39
+Hijacking,Religious Figures/Institutions,1
+Hijacking,Tourists,3
+Hijacking,Transportation,57
+Hijacking,Unknown,4
+Hijacking,Utilities,1
+Hostage Taking (Barricade Incident),Business,151
+Hostage Taking (Barricade Incident),Government (General),61
+Hostage Taking (Barricade Incident),Police,38
+Hostage Taking (Barricade Incident),Military,25
+Hostage Taking (Barricade Incident),Airports & Aircraft,13
+Hostage Taking (Barricade Incident),Government (Diplomatic),56
+Hostage Taking (Barricade Incident),Educational Institution,27
+Hostage Taking (Barricade Incident),Food or Water Supply,2
+Hostage Taking (Barricade Incident),Journalists & Media,234
+Hostage Taking (Barricade Incident),Maritime,2
+Hostage Taking (Barricade Incident),NGO,5
+Hostage Taking (Barricade Incident),Other,4
+Hostage Taking (Barricade Incident),Private Citizens & Property,112
+Hostage Taking (Barricade Incident),Religious Figures/Institutions,19
+Hostage Taking (Barricade Incident),Telecommunication,33
+Hostage Taking (Barricade Incident),Terrorists/Non-State Militia,3
+Hostage Taking (Barricade Incident),Tourists,3
+Hostage Taking (Barricade Incident),Transportation,27
+Hostage Taking (Barricade Incident),Unknown,2
+Hostage Taking (Barricade Incident),Utilities,9
+Hostage Taking (Barricade Incident),Violent Political Party,1
+Hostage Taking (Kidnapping),Business,1371
+Hostage Taking (Kidnapping),Government (General),1370
+Hostage Taking (Kidnapping),Police,564
+Hostage Taking (Kidnapping),Military,553
+Hostage Taking (Kidnapping),Abortion Related,1
+Hostage Taking (Kidnapping),Airports & Aircraft,15
+Hostage Taking (Kidnapping),Government (Diplomatic),272
+Hostage Taking (Kidnapping),Educational Institution,301
+Hostage Taking (Kidnapping),Food or Water Supply,7
+Hostage Taking (Kidnapping),Journalists & Media,417
+Hostage Taking (Kidnapping),Maritime,28
+Hostage Taking (Kidnapping),NGO,268
+Hostage Taking (Kidnapping),Other,39
+Hostage Taking (Kidnapping),Private Citizens & Property,3021
+Hostage Taking (Kidnapping),Religious Figures/Institutions,211
+Hostage Taking (Kidnapping),Telecommunication,16
+Hostage Taking (Kidnapping),Terrorists/Non-State Militia,140
+Hostage Taking (Kidnapping),Tourists,96
+Hostage Taking (Kidnapping),Transportation,57
+Hostage Taking (Kidnapping),Unknown,34
+Hostage Taking (Kidnapping),Utilities,23
+Hostage Taking (Kidnapping),Violent Political Party,104
+Facility/Infrastructure Attack,Business,2440
+Facility/Infrastructure Attack,Government (General),1184
+Facility/Infrastructure Attack,Police,394
+Facility/Infrastructure Attack,Military,274
+Facility/Infrastructure Attack,Abortion Related,174
+Facility/Infrastructure Attack,Airports & Aircraft,84
+Facility/Infrastructure Attack,Government (Diplomatic),257
+Facility/Infrastructure Attack,Educational Institution,503
+Facility/Infrastructure Attack,Food or Water Supply,33
+Facility/Infrastructure Attack,Journalists & Media,164
+Facility/Infrastructure Attack,Maritime,12
+Facility/Infrastructure Attack,NGO,56
+Facility/Infrastructure Attack,Other,69
+Facility/Infrastructure Attack,Private Citizens & Property,1091
+Facility/Infrastructure Attack,Religious Figures/Institutions,454
+Facility/Infrastructure Attack,Telecommunication,231
+Facility/Infrastructure Attack,Terrorists/Non-State Militia,25
+Facility/Infrastructure Attack,Tourists,10
+Facility/Infrastructure Attack,Transportation,542
+Facility/Infrastructure Attack,Unknown,19
+Facility/Infrastructure Attack,Utilities,237
+Facility/Infrastructure Attack,Violent Political Party,71
+Unarmed Assault,Business,42
+Unarmed Assault,Government (General),67
+Unarmed Assault,Police,62
+Unarmed Assault,Military,56
+Unarmed Assault,Abortion Related,2
+Unarmed Assault,Airports & Aircraft,4
+Unarmed Assault,Government (Diplomatic),30
+Unarmed Assault,Educational Institution,47
+Unarmed Assault,Journalists & Media,32
+Unarmed Assault,NGO,6
+Unarmed Assault,Other,7
+Unarmed Assault,Private Citizens & Property,259
+Unarmed Assault,Religious Figures/Institutions,20
+Unarmed Assault,Terrorists/Non-State Militia,4
+Unarmed Assault,Tourists,4
+Unarmed Assault,Transportation,34
+Unarmed Assault,Unknown,12
+Unarmed Assault,Violent Political Party,10
+Unknown,Business,362
+Unknown,Government (General),354
+Unknown,Police,841
+Unknown,Military,1237
+Unknown,Airports & Aircraft,33
+Unknown,Government (Diplomatic),106
+Unknown,Educational Institution,56
+Unknown,Food or Water Supply,5
+Unknown,Journalists & Media,72
+Unknown,Maritime,14
+Unknown,NGO,29
+Unknown,Other,22
+Unknown,Private Citizens & Property,1267
+Unknown,Religious Figures/Institutions,87
+Unknown,Telecommunication,10
+Unknown,Terrorists/Non-State Militia,130
+Unknown,Tourists,6
+Unknown,Transportation,114
+Unknown,Unknown,58
+Unknown,Utilities,97
+Unknown,Violent Political Party,67

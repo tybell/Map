@@ -1,0 +1,379 @@
+Last login: Mon May  1 09:42:36 on ttys000
+D-10-157-78-199:~ Sheen$ cd git/
+D-10-157-78-199:git Sheen$ cd Global-Terrorism/
+D-10-157-78-199:Global-Terrorism Sheen$ cd docs/
+D-10-157-78-199:docs Sheen$ cd prototype/
+D-10-157-78-199:prototype Sheen$ python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [01/May/2017 09:54:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:55:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:55:41] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:57:07] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:57:10] "GET /visualization.js HTTP/1.1" 200 -
+^C----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 49739)
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 655, in __init__
+    self.handle()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+----------------------------------------
+
+^C----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 49740)
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 655, in __init__
+    self.handle()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+----------------------------------------
+^C^CTraceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 235, in <module>
+    test()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 231, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+D-10-157-78-199:prototype Sheen$ 
+D-10-157-78-199:prototype Sheen$ python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [01/May/2017 09:59:11] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:59:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:59:16] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 09:59:16] code 404, message File not found
+127.0.0.1 - - [01/May/2017 09:59:16] "GET /world.topojson HTTP/1.1" 404 -
+127.0.0.1 - - [01/May/2017 10:00:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:00:16] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:00:17] code 404, message File not found
+127.0.0.1 - - [01/May/2017 10:00:17] "GET /world.topojson HTTP/1.1" 404 -
+127.0.0.1 - - [01/May/2017 10:00:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:00:56] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:00:57] "GET /world.json HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:02:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:02:34] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:02:35] code 404, message File not found
+127.0.0.1 - - [01/May/2017 10:02:35] "GET /world-countries.topojson HTTP/1.1" 404 -
+^CTraceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 235, in <module>
+    test()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 231, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+D-10-157-78-199:prototype Sheen$ 
+D-10-157-78-199:prototype Sheen$ npm install topojson
+-bash: npm: command not found
+D-10-157-78-199:prototype Sheen$ 
+D-10-157-78-199:prototype Sheen$ python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [01/May/2017 10:04:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:04:35] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:04:36] code 404, message File not found
+127.0.0.1 - - [01/May/2017 10:04:36] "GET /world-countries.topojson HTTP/1.1" 404 -
+^CTraceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 235, in <module>
+    test()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SimpleHTTPServer.py", line 231, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 599, in test
+    httpd.serve_forever()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 236, in serve_forever
+    poll_interval)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 155, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+D-10-157-78-199:prototype Sheen$ 
+D-10-157-78-199:prototype Sheen$ npm install -g topojson@1
+-bash: npm: command not found
+D-10-157-78-199:prototype Sheen$ 
+D-10-157-78-199:prototype Sheen$ node -v
+v6.10.2
+D-10-157-78-199:prototype Sheen$ npm install -g topojson@1
+/usr/local/bin/topojson -> /usr/local/lib/node_modules/topojson/bin/topojson
+/usr/local/bin/topojson-geojson -> /usr/local/lib/node_modules/topojson/bin/topojson-geojson
+/usr/local/bin/topojson-group -> /usr/local/lib/node_modules/topojson/bin/topojson-group
+/usr/local/bin/topojson-merge -> /usr/local/lib/node_modules/topojson/bin/topojson-merge
+/usr/local/bin/topojson-svg -> /usr/local/lib/node_modules/topojson/bin/topojson-svg
+/usr/local/lib
+└─┬ topojson@1.6.27 
+  ├── d3@3.5.17 
+  ├─┬ d3-geo-projection@0.2.16 
+  │ └─┬ brfs@1.4.3 
+  │   ├─┬ quote-stream@1.0.2 
+  │   │ ├── buffer-equal@0.0.1 
+  │   │ └── minimist@1.2.0 
+  │   ├─┬ resolve@1.3.3 
+  │   │ └── path-parse@1.0.5 
+  │   ├─┬ static-module@1.3.1 
+  │   │ ├─┬ concat-stream@1.4.10 
+  │   │ │ ├── inherits@2.0.3 
+  │   │ │ ├─┬ readable-stream@1.1.14 
+  │   │ │ │ ├── isarray@0.0.1 
+  │   │ │ │ └── string_decoder@0.10.31 
+  │   │ │ └── typedarray@0.0.6 
+  │   │ ├─┬ duplexer2@0.0.2 
+  │   │ │ └─┬ readable-stream@1.1.14 
+  │   │ │   ├── isarray@0.0.1 
+  │   │ │   └── string_decoder@0.10.31 
+  │   │ ├─┬ escodegen@1.3.3 
+  │   │ │ ├── esprima@1.1.1 
+  │   │ │ ├── estraverse@1.5.1 
+  │   │ │ ├── esutils@1.0.0 
+  │   │ │ └─┬ source-map@0.1.43 
+  │   │ │   └── amdefine@1.0.1 
+  │   │ ├─┬ falafel@1.2.0 
+  │   │ │ ├── acorn@1.2.2 
+  │   │ │ ├── foreach@2.0.5 
+  │   │ │ ├── isarray@0.0.1 
+  │   │ │ └── object-keys@1.0.11 
+  │   │ ├─┬ has@1.0.1 
+  │   │ │ └── function-bind@1.1.0 
+  │   │ ├── object-inspect@0.4.0 
+  │   │ ├─┬ quote-stream@0.0.0 
+  │   │ │ └── minimist@0.0.8 
+  │   │ ├─┬ readable-stream@1.0.34 
+  │   │ │ ├── core-util-is@1.0.2 
+  │   │ │ ├── isarray@0.0.1 
+  │   │ │ └── string_decoder@0.10.31 
+  │   │ ├── shallow-copy@0.0.1 
+  │   │ ├─┬ static-eval@0.2.4 
+  │   │ │ └─┬ escodegen@0.0.28 
+  │   │ │   ├── esprima@1.0.4 
+  │   │ │   └── estraverse@1.3.2 
+  │   │ └─┬ through2@0.4.2 
+  │   │   └─┬ xtend@2.1.2 
+  │   │     └── object-keys@0.4.0 
+  │   └─┬ through2@2.0.3 
+  │     ├─┬ readable-stream@2.2.9 
+  │     │ ├── buffer-shims@1.0.0 
+  │     │ ├── isarray@1.0.0 
+  │     │ ├── process-nextick-args@1.0.7 
+  │     │ ├── string_decoder@1.0.0 
+  │     │ └── util-deprecate@1.0.2 
+  │     └── xtend@4.0.1 
+  ├── d3-queue@2.0.3 
+  ├─┬ optimist@0.3.7 
+  │ └── wordwrap@0.0.3 
+  ├── rw@1.3.3 
+  └─┬ shapefile@0.3.1 
+    ├── d3-queue@1.2.3 
+    └── iconv-lite@0.2.11 
+
+D-10-157-78-199:prototype Sheen$ npm install topojson
+/Users/Sheen/git/Global-Terrorism/docs/prototype
+└─┬ topojson@3.0.0 
+  ├─┬ topojson-client@3.0.0 
+  │ └─┬ commander@2.9.0 
+  │   └── graceful-readlink@1.0.1 
+  ├── topojson-server@3.0.0 
+  └── topojson-simplify@3.0.0 
+
+npm WARN enoent ENOENT: no such file or directory, open '/Users/Sheen/git/Global-Terrorism/docs/prototype/package.json'
+npm WARN prototype No description
+npm WARN prototype No repository field.
+npm WARN prototype No README data
+npm WARN prototype No license field.
+D-10-157-78-199:prototype Sheen$ sudo npm install topojson
+Password:
+/Users/Sheen/git/Global-Terrorism/docs/prototype
+└── topojson@3.0.0 
+
+npm WARN enoent ENOENT: no such file or directory, open '/Users/Sheen/git/Global-Terrorism/docs/prototype/package.json'
+npm WARN prototype No description
+npm WARN prototype No repository field.
+npm WARN prototype No README data
+npm WARN prototype No license field.
+D-10-157-78-199:prototype Sheen$ npm install
+npm WARN enoent ENOENT: no such file or directory, open '/Users/Sheen/git/Global-Terrorism/docs/prototype/package.json'
+npm WARN prototype No description
+npm WARN prototype No repository field.
+npm WARN prototype No README data
+npm WARN prototype No license field.
+D-10-157-78-199:prototype Sheen$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (prototype) 
+version: (1.0.0) 
+description: eh
+entry point: (topojson.js) visualization.js
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/Sheen/git/Global-Terrorism/docs/prototype/package.json:
+
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "eh",
+  "main": "visualization.js",
+  "dependencies": {
+    "topojson": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+D-10-157-78-199:prototype Sheen$ ls
+index.html		topojson.js		world.json
+node_modules		visualization.js
+package.json		world-countries.json
+D-10-157-78-199:prototype Sheen$ npm install -g topojson
+/usr/local/bin/geo2topo -> /usr/local/lib/node_modules/topojson/node_modules/topojson-server/bin/geo2topo
+/usr/local/bin/toposimplify -> /usr/local/lib/node_modules/topojson/node_modules/topojson-simplify/bin/toposimplify
+/usr/local/bin/topo2geo -> /usr/local/lib/node_modules/topojson/node_modules/topojson-client/bin/topo2geo
+/usr/local/bin/topomerge -> /usr/local/lib/node_modules/topojson/node_modules/topojson-client/bin/topomerge
+/usr/local/bin/topoquantize -> /usr/local/lib/node_modules/topojson/node_modules/topojson-client/bin/topoquantize
+- acorn@1.2.2 node_modules/topojson/node_modules/acorn
+- amdefine@1.0.1 node_modules/topojson/node_modules/amdefine
+- buffer-equal@0.0.1 node_modules/topojson/node_modules/buffer-equal
+- buffer-shims@1.0.0 node_modules/topojson/node_modules/buffer-shims
+- isarray@0.0.1 node_modules/topojson/node_modules/concat-stream/node_modules/isarray
+- string_decoder@0.10.31 node_modules/topojson/node_modules/concat-stream/node_modules/string_decoder
+- core-util-is@1.0.2 node_modules/topojson/node_modules/core-util-is
+- isarray@0.0.1 node_modules/topojson/node_modules/duplexer2/node_modules/isarray
+- string_decoder@0.10.31 node_modules/topojson/node_modules/duplexer2/node_modules/string_decoder
+- esprima@1.1.1 node_modules/topojson/node_modules/esprima
+- estraverse@1.5.1 node_modules/topojson/node_modules/estraverse
+- esutils@1.0.0 node_modules/topojson/node_modules/esutils
+- isarray@0.0.1 node_modules/topojson/node_modules/falafel/node_modules/isarray
+- foreach@2.0.5 node_modules/topojson/node_modules/foreach
+- function-bind@1.1.0 node_modules/topojson/node_modules/function-bind
+- has@1.0.1 node_modules/topojson/node_modules/has
+- iconv-lite@0.2.11 node_modules/topojson/node_modules/iconv-lite
+- inherits@2.0.3 node_modules/topojson/node_modules/inherits
+- readable-stream@1.1.14 node_modules/topojson/node_modules/concat-stream/node_modules/readable-stream
+- readable-stream@1.1.14 node_modules/topojson/node_modules/duplexer2/node_modules/readable-stream
+- duplexer2@0.0.2 node_modules/topojson/node_modules/duplexer2
+- isarray@1.0.0 node_modules/topojson/node_modules/isarray
+- minimist@1.2.0 node_modules/topojson/node_modules/minimist
+- object-inspect@0.4.0 node_modules/topojson/node_modules/object-inspect
+- object-keys@1.0.11 node_modules/topojson/node_modules/object-keys
+- falafel@1.2.0 node_modules/topojson/node_modules/falafel
+- path-parse@1.0.5 node_modules/topojson/node_modules/path-parse
+- process-nextick-args@1.0.7 node_modules/topojson/node_modules/process-nextick-args
+- resolve@1.3.3 node_modules/topojson/node_modules/resolve
+- shallow-copy@0.0.1 node_modules/topojson/node_modules/shallow-copy
+- d3-queue@1.2.3 node_modules/topojson/node_modules/shapefile/node_modules/d3-queue
+- source-map@0.1.43 node_modules/topojson/node_modules/source-map
+- escodegen@1.3.3 node_modules/topojson/node_modules/escodegen
+- esprima@1.0.4 node_modules/topojson/node_modules/static-eval/node_modules/esprima
+- estraverse@1.3.2 node_modules/topojson/node_modules/static-eval/node_modules/estraverse
+- escodegen@0.0.28 node_modules/topojson/node_modules/static-eval/node_modules/escodegen
+- static-eval@0.2.4 node_modules/topojson/node_modules/static-eval
+- isarray@0.0.1 node_modules/topojson/node_modules/static-module/node_modules/isarray
+- minimist@0.0.8 node_modules/topojson/node_modules/static-module/node_modules/minimist
+- object-keys@0.4.0 node_modules/topojson/node_modules/static-module/node_modules/object-keys
+- string_decoder@0.10.31 node_modules/topojson/node_modules/static-module/node_modules/string_decoder
+- readable-stream@1.0.34 node_modules/topojson/node_modules/static-module/node_modules/readable-stream
+- xtend@2.1.2 node_modules/topojson/node_modules/static-module/node_modules/xtend
+- through2@0.4.2 node_modules/topojson/node_modules/static-module/node_modules/through2
+- quote-stream@0.0.0 node_modules/topojson/node_modules/static-module/node_modules/quote-stream
+- string_decoder@1.0.0 node_modules/topojson/node_modules/string_decoder
+- typedarray@0.0.6 node_modules/topojson/node_modules/typedarray
+- concat-stream@1.4.10 node_modules/topojson/node_modules/concat-stream
+- static-module@1.3.1 node_modules/topojson/node_modules/static-module
+- util-deprecate@1.0.2 node_modules/topojson/node_modules/util-deprecate
+- readable-stream@2.2.9 node_modules/topojson/node_modules/readable-stream
+- wordwrap@0.0.3 node_modules/topojson/node_modules/wordwrap
+- optimist@0.3.7 node_modules/topojson/node_modules/optimist
+- xtend@4.0.1 node_modules/topojson/node_modules/xtend
+- through2@2.0.3 node_modules/topojson/node_modules/through2
+- quote-stream@1.0.2 node_modules/topojson/node_modules/quote-stream
+- brfs@1.4.3 node_modules/topojson/node_modules/brfs
+- d3@3.5.17 node_modules/topojson/node_modules/d3
+- d3-geo-projection@0.2.16 node_modules/topojson/node_modules/d3-geo-projection
+- d3-queue@2.0.3 node_modules/topojson/node_modules/d3-queue
+- rw@1.3.3 node_modules/topojson/node_modules/rw
+- shapefile@0.3.1 node_modules/topojson/node_modules/shapefile
+/usr/local/lib
+└─┬ topojson@3.0.0 
+  ├─┬ topojson-client@3.0.0 
+  │ └─┬ commander@2.9.0 
+  │   └── graceful-readlink@1.0.1 
+  ├─┬ topojson-server@3.0.0 
+  │ └── commander@2.9.0  deduped
+  └─┬ topojson-simplify@3.0.0 
+    ├── commander@2.9.0  deduped
+    └── topojson-client@3.0.0  deduped
+
+D-10-157-78-199:prototype Sheen$ 
+D-10-157-78-199:prototype Sheen$ ls
+index.html		topojson.js		world.json
+node_modules		visualization.js
+package.json		world-countries.json
+D-10-157-78-199:prototype Sheen$ python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [01/May/2017 10:16:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:16:00] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:16:01] code 404, message File not found
+127.0.0.1 - - [01/May/2017 10:16:01] "GET /world.topojson HTTP/1.1" 404 -
+127.0.0.1 - - [01/May/2017 10:17:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:17:55] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:17:56] code 404, message File not found
+127.0.0.1 - - [01/May/2017 10:17:56] "GET /world.json HTTP/1.1" 404 -
+127.0.0.1 - - [01/May/2017 10:18:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:18:08] "GET /visualization.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:18:08] "GET /world-countries.json HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:19:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2017 10:19:33] "GET /visualization.js HTTP/1.1" 200 -
+
