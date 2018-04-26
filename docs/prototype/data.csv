@@ -1,4 +1,4 @@
-iyear,country_txt,alpha_3_code,longitude,latitude,num_killed,num_attacks
+iyear,country_txt,alpha_3_code,latitude,longitude,num_killed,num_attacks
 1981,Albania,ALB,-73.9221827,40.8133392,1000,1
 1990,Albania,ALB,-73.907819,40.8241105,0,1
 1991,Albania,ALB,-73.8627439,40.8766914,0,1
