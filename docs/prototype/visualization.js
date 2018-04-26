@@ -9,7 +9,7 @@
     var height = 500,
         width = 770;
 
-    var colorRangeStart = "#315f8e",
+    var colorRangeStart = "#815f8e",
         colorRangeEnd = "#b00c38";
 
     var svg = d3.select("#map")
@@ -21,7 +21,7 @@
     var g = svg.append("g");
 
     d3.queue()
-        .defer(d3.json, "world-countries.json")
+        .defer(d3.json, "boroughs.json")
         .await(ready)
 
     // *********CARSON STUFF --- selecting data by year
@@ -99,17 +99,23 @@
 
     function ready (error, data) {
         loadAttackData();
-        countries = topojson.feature(data, data.objects.countries1).features
+        countries = topojson.feature(data, data.objects.nyc_boroughs).features
         drawCountries(data);
     }
 
     function drawCountries (data) {
-        g.selectAll(".country")
-            .data(countries)
+        g.selectAll(".boroughs")
+            .data(boroughs)
             .enter().append("path")
-            .attr("class", "country")
+            .attr("class", "boroughs")
             .attr("d", path)
             .on('mouseover', function(d) {
+                d3.select(this).classed("selected", true)
+            })
+            .on('mouseout', function(d) {
+                d3.select(this).classed("selected", false)
+            })
+/*            .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
                 dataArray.forEach(function(entry) {
                     if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
@@ -121,7 +127,7 @@
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
                 updatePanelWorld();
-            })
+            })*/
     }
 
     function drawBubbles(attackData, radius, color) {
@@ -167,7 +173,7 @@
 
             });
 
-        customZoom(bubbles, radius);
+        /*customZoom(bubbles, radius);*/
     }
 
     function updatePanel(d) {
@@ -188,10 +194,10 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
                 + "<br/> Number killed: " + d.num_killed
-                + "<br/> Number of attacks: " + d.num_attacks);
+                /*+ "<br/> Number of attacks: " + d.num_attacks*/);
     }
 
-    function customZoom(bubbles, radius) {
+/*    function customZoom(bubbles, radius) {
         var zoom = d3.zoom()
             .scaleExtent([1, 10])
             .on('zoom', function() {
@@ -205,7 +211,7 @@
             });
 
         d3.select('#map').select('svg').call(zoom);
-    }
+    }*/
 
     function makeSlider(dataArray, radius, color) {
         var margin = {right: 15, left: 15},
