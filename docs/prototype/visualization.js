@@ -6,8 +6,8 @@
     var rangeMin = 2;
     var rangeMax = 50;
 
-    var height = 500,
-        width = 770;
+    var height = 800,
+        width = 800;
 
     var colorRangeStart = "#315f8e",
         colorRangeEnd = "#b00c38";
@@ -19,6 +19,15 @@
         .append("g");
 
     var g = svg.append("g");
+
+    var nyc_center = [-74,40.7];
+    var mapRatio = 1;
+    var mapRatioAdjuster = 100;
+    var projection = d3.geo.mercator()
+        .center(nyc_center)
+        .translate([width/2, height/2])
+        .scale(width * [mapRatio + mapRatioAdjuster]);
+    var geoPath = d3.geo.path().projection(projection);
 
     d3.queue()
         .defer(d3.json, "boroughs.json")
@@ -91,36 +100,38 @@
     }*/
     // *********END CARSON STUFF
 
-    var projection = d3.geoMercator()
-        .translate([width/2, height/2+50])
-        .scale(20000);
-
-    var path = d3.geoPath().projection(projection);
+    // var projection = d3.geoMercator()
+    //     .translate([width/2, height/2+50])
+    //     .scale(20000);
+    //
+    // var path = d3.geoPath().projection(projection);
 
     function ready (error, data) {
         //loadAttackData();
-        boroughs = topojson.feature(data, data.objects.borough1).features;
-        g.selectAll(".borough")
-            .data(boroughs)
-            .enter()
-            .append("path")
-            .attr("class", "borough")
-            .attr("d", path)
-            .on('mouseover', function(d) {
-                d3.select(this).classed("selected", true)
-                /*                dataArray.forEach(function(entry) {
-                                    if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
-                                        updatePanel(entry);
-                                    }
-                                });*/
-
-            })
-            .on('mouseout', function(d) {
-                d3.select(this).classed("selected", false)
-                //updatePanelWorld();
-            })
+        boroughs = topojson.feature(data, data.objects.borough0).features
+        drawBoroughs(data);
     }
+function drawBoroughs(data){
+    g.selectAll(".borough")
+        .data(boroughs)
+        .enter()
+        .append("path")
+        .attr("class", "borough")
+        .attr("d", geoPath)
+        .on('mouseover', function(d) {
+            d3.select(this).classed("selected", true)
+            /*                dataArray.forEach(function(entry) {
+                                if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
+                                    updatePanel(entry);
+                                }
+                            });*/
 
+        })
+        .on('mouseout', function(d) {
+            d3.select(this).classed("selected", false)
+            //updatePanelWorld();
+        })
+}
 /*
     function drawBubbles(attackData, radius, color) {
         // make bubbles on map

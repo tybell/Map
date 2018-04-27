@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b6ba0a-54be-4710-98e7-e9f49552466d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/Map.iml" afterPath="$PROJECT_DIR$/.idea/Map.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,9 +37,14 @@
       <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="111" column="27" lean-forward="false" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+              <folding>
+                <element signature="e#1019#1217#0" expanded="false" />
+                <element signature="e#1219#1459#0" expanded="false" />
+                <element signature="e#1461#2440#0" expanded="false" />
+                <element signature="e#2490#2681#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +92,8 @@
       <file leaf-file-name="boroughs.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="1" column="715" lean-forward="false" selection-start-line="1" selection-start-column="715" selection-end-line="1" selection-end-column="715" />
+            <state relative-caret-position="50">
+              <caret line="1" column="163" lean-forward="false" selection-start-line="1" selection-start-column="163" selection-end-line="1" selection-end-column="163" />
               <folding />
             </state>
           </provider>
@@ -223,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
-      <workItem from="1524779245674" duration="12681000" />
+      <workItem from="1524779245674" duration="13359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14897000" />
+    <option name="totallyTimeSpent" value="15575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -268,7 +273,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1019#1217#0" expanded="false" />
+            <element signature="e#1219#1459#0" expanded="false" />
+            <element signature="e#1461#2440#0" expanded="false" />
+            <element signature="e#2490#2681#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -344,14 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1" column="715" lean-forward="false" selection-start-line="1" selection-start-column="715" selection-end-line="1" selection-end-column="715" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -384,11 +386,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="1" column="163" lean-forward="false" selection-start-line="1" selection-start-column="163" selection-end-line="1" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="104" column="20" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="111" column="27" lean-forward="false" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+          <folding>
+            <element signature="e#1019#1217#0" expanded="false" />
+            <element signature="e#1219#1459#0" expanded="false" />
+            <element signature="e#1461#2440#0" expanded="false" />
+            <element signature="e#2490#2681#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
