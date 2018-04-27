@@ -6,8 +6,8 @@
     var rangeMin = 2;
     var rangeMax = 50;
 
-    var height = 500,
-        width = 770;
+    var height = 800,
+        width = 800;
 
     var colorRangeStart = "#315f8e",
         colorRangeEnd = "#b00c38";
