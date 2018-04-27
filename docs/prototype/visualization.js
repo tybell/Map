@@ -36,7 +36,7 @@
 	function loadGlobalData() {
 		d3.csv("global_data.csv", function(rows) {
 			globalData = rows;
-			updatePanelWorld();
+			//updatePanelWorld();
 			dataArrayLoaded();
 		});
 	}
@@ -120,7 +120,7 @@
 			})
 			.on('mouseout', function(d) {
 				d3.select(this).classed("selected", false)
-				updatePanelWorld();
+				//updatePanelWorld();
 			})
 	}
 
@@ -163,7 +163,7 @@
 		           .style("opacity", 0.8)
 		           .style("stroke", "none");
 
-		        updatePanelWorld();
+		        //updatePanelWorld();
 
 		    });
 
@@ -177,19 +177,19 @@
 				+ "<br/> Number of attacks: " + d.num_attacks);
 	}
 
-	function updatePanelWorld() {
-		var d;
-		globalData.forEach(function(entry) {
-			if (entry.iyear == currYear) {
-				d = entry;
-			}
-		});
+	// function updatePanelWorld() {
+	// 	var d;
+	// 	globalData.forEach(function(entry) {
+	// 		if (entry.iyear == currYear) {
+	// 			d = entry;
+	// 		}
+	// 	});
 
-		d3.select("#panelInfo")
-			.html("<span id=\"countryTitle\">" + currYear + " | World</span>"
-				+ "<br/> Number killed: " + d.num_killed
-				+ "<br/> Number of attacks: " + d.num_attacks);
-	}
+	// 	d3.select("#panelInfo")
+	// 		.html("<span id=\"countryTitle\">" + currYear + " | World</span>"
+	// 			+ "<br/> Number killed: " + d.num_killed
+	// 			+ "<br/> Number of attacks: " + d.num_attacks);
+	// }
 
 	// function customZoom(bubbles, radius) {
 	// 	var zoom = d3.zoom()
@@ -284,7 +284,7 @@
 			var circles = svg.selectAll("circle");
 			circles.remove();
 			drawBubbles(selectedYearDataArray, radius, color);
-			updatePanelWorld();
+			//updatePanelWorld();
 		}
 
 		// Manually call to instantiate map upon load
