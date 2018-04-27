@@ -22,7 +22,7 @@
 
     d3.queue()
         .defer(d3.json, "boroughs.json")
-        .await(ready)
+        .await(ready);
 
     // *********CARSON STUFF --- selecting data by year
     // load data and convert to array
@@ -93,13 +93,13 @@
 
     var projection = d3.geoMercator()
         .translate([width/2, height/2+50])
-        .scale(148)
+        .scale(20000);
 
-    var path = d3.geoPath().projection(projection)
+    var path = d3.geoPath().projection(projection);
 
     function ready (error, data) {
         //loadAttackData();
-        boroughs = topojson.feature(data, data.objects.nyc_boroughs).features
+        boroughs = topojson.feature(data, data.objects.nyc_boroughs).features;
         drawCountries(data);
     }
 
@@ -107,7 +107,7 @@
         g.selectAll(".borough")
             .data(boroughs)
             .enter().append("path")
-            .attr("class", "borough")
+            .attr("class", "country")
             .attr("d", path)
  /*           .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
