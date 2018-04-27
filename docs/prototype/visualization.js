@@ -30,7 +30,7 @@
     var dataArray;
     var globalData;
     var selectedYearDataArray;
-    var boroughs;
+    var borough;
 
 
 /*    function loadGlobalData() {
@@ -93,13 +93,13 @@
 
     var projection = d3.geoMercator()
         .translate([width/2, height/2+50])
-        .scale(148)
+        .scale(20000)
 
     var path = d3.geoPath().projection(projection);
 
     function ready (error, data) {
         //loadAttackData();
-        boroughs = topojson.feature(data, data.objects.borough1).features;
+        borough = topojson.feature(data, data.objects.borough1).features;
         drawCountries(data);
     }
 
