@@ -177,7 +177,7 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
                 + "<br/> Number served: " + d.num_killed
-                );
+                + "<br/> Number of attacks: " + d.num_attacks);
     }
 
     function updatePanelWorld() {
@@ -188,6 +188,10 @@
             }
         });
 
+        d3.select("#panelInfo")
+            .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
+                + "<br/> Number served: " + d.num_killed
+                + "<br/> Number of attacks: " + d.num_attacks);
     }
 
     function customZoom(bubbles, radius) {

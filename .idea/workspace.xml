@@ -40,8 +40,8 @@
       <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            <state relative-caret-position="184">
+              <caret line="184" column="28" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -122,6 +122,9 @@
       <find>scale</find>
       <find>world</find>
       <find>year</find>
+      <find>start</find>
+      <find>currYear</find>
+      <find>num</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,8 +137,8 @@
         <option value="$PROJECT_DIR$/docs/prototype/topojson.js" />
         <option value="$PROJECT_DIR$/docs/prototype/terrorism.css" />
         <option value="$PROJECT_DIR$/docs/prototype/boroughs.json" />
-        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
         <option value="$PROJECT_DIR$/docs/prototype/index.html" />
+        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
       </list>
     </option>
   </component>
@@ -231,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
-      <workItem from="1524779245674" duration="18469000" />
+      <workItem from="1524779245674" duration="18703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20685000" />
+    <option name="totallyTimeSpent" value="20919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -394,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        <state relative-caret-position="184">
+          <caret line="184" column="28" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
           <folding />
         </state>
       </provider>
