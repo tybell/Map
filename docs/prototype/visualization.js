@@ -104,10 +104,10 @@
     }
 
     function drawCountries (data) {
-        g.selectAll(".country")
+        g.selectAll(".borough")
             .data(boroughs)
             .enter().append("path")
-            .attr("class", "country")
+            .attr("class", "borough")
             .attr("d", path)
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
