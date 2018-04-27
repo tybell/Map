@@ -1,5 +1,5 @@
 (function() {
-    var currYear = 1970;
+    var currYear = 2000;
 
     var sizeMin;
     var sizeMax;
@@ -42,7 +42,7 @@
     }
 
     function loadAttackData() {
-        d3.csv("data.csv", function(rows) {
+        d3.csv("data2.csv", function(rows) {
             dataArray = rows;
             // this method will not be called until the above data is fully loaded
             loadGlobalData();
@@ -176,8 +176,8 @@
     function updatePanel(d) {
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-                + "<br/> Number killed: " + d.num_killed
-                + "<br/> Number of attacks: " + d.num_attacks);
+                + "<br/> Number served: " + d.num_killed
+                );
     }
 
     function updatePanelWorld() {
@@ -188,10 +188,6 @@
             }
         });
 
-        d3.select("#panelInfo")
-            .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
-                + "<br/> Number killed: " + d.num_killed
-                + "<br/> Number of attacks: " + d.num_attacks);
     }
 
     function customZoom(bubbles, radius) {
