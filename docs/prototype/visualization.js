@@ -90,10 +90,13 @@
             });
     }
     // *********END CARSON STUFF
-
+    var nyc_center = [-74,40.7];
+    var mapRatio = 1;
+    var mapRatioAdjuster = 100;
     var projection = d3.geoMercator()
         .translate([width/2, height/2+50])
-        .scale(148)
+        .center(nyc_center)
+        .scale(width*(mapRatio+mapRatioAdjuster));
 
     var path = d3.geoPath().projection(projection);
 
