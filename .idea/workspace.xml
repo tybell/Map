@@ -34,21 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="visualization.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="107" column="20" lean-forward="true" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="43" column="96" lean-forward="false" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+            <state relative-caret-position="86">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
       <file leaf-file-name="boroughs.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="3" column="163" lean-forward="false" selection-start-line="3" selection-start-column="163" selection-end-line="3" selection-end-column="163" />
+            <state relative-caret-position="182">
+              <caret line="0" column="573499" lean-forward="false" selection-start-line="0" selection-start-column="573498" selection-end-line="0" selection-end-column="573499" />
               <folding />
             </state>
           </provider>
@@ -116,6 +116,7 @@
       <find>country</find>
       <find>count</find>
       <find>bootstrap-</find>
+      <find>b</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,8 +129,8 @@
         <option value="$PROJECT_DIR$/docs/prototype/topojson.js" />
         <option value="$PROJECT_DIR$/docs/prototype/terrorism.css" />
         <option value="$PROJECT_DIR$/docs/prototype/boroughs.json" />
-        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
         <option value="$PROJECT_DIR$/docs/prototype/index.html" />
+        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
       </list>
     </option>
   </component>
@@ -146,9 +147,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="223" />
-    <option name="y" value="89" />
-    <option name="width" value="1012" />
+    <option name="x" value="788" />
+    <option name="y" value="46" />
+    <option name="width" value="565" />
     <option name="height" value="719" />
   </component>
   <component name="ProjectView">
@@ -225,12 +226,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
-      <workItem from="1524779245674" duration="15395000" />
+      <workItem from="1524779245674" duration="16806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17611000" />
+    <option name="totallyTimeSpent" value="19022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -286,14 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Map-master/docs/prototype/visualization.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="286" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="356" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -354,14 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="3" column="163" lean-forward="false" selection-start-line="3" selection-start-column="163" selection-end-line="3" selection-end-column="163" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/world-countries.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15775">
@@ -378,18 +363,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
+    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="86">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
+    <entry file="file://$PROJECT_DIR$/../../Map-master/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="43" column="96" lean-forward="false" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+        <state relative-caret-position="419">
+          <caret line="356" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="356" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="0" column="573499" lean-forward="false" selection-start-line="0" selection-start-column="573498" selection-end-line="0" selection-end-column="573499" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="107" column="20" lean-forward="true" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
           <folding />
         </state>
       </provider>
