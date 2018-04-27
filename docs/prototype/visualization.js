@@ -28,24 +28,24 @@
 	// load data and convert to array
 	// store data for reference elsewhere
 	var dataArray;
-	var globalData;
+	//var globalData;
 	var selectedYearDataArray;
 	var countries;
 
 	
-	function loadGlobalData() {
-		d3.csv("global_data.csv", function(rows) {
-			globalData = rows;
-			//updatePanelWorld();
-			dataArrayLoaded();
-		});
-	}
+	// function loadGlobalData() {
+	// 	d3.csv("global_data.csv", function(rows) {
+	// 		globalData = rows;
+	// 		//updatePanelWorld();
+	// 		dataArrayLoaded();
+	// 	});
+	// }
 
 	function loadAttackData() {
 		d3.csv("data.csv", function(rows) {
 			dataArray = rows;
 			// this method will not be called until the above data is fully loaded
-			loadGlobalData();
+			//loadGlobalData();
 		});
 	}
 
