@@ -33,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="visualization.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+            <state relative-caret-position="402">
+              <caret line="199" column="26" lean-forward="false" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -83,16 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topojson.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/prototype/topojson.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/prototype/data.csv">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,8 +119,8 @@
       <list>
         <option value="$PROJECT_DIR$/docs/prototype/data.csv" />
         <option value="$PROJECT_DIR$/docs/prototype/index.html" />
-        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
         <option value="$PROJECT_DIR$/docs/prototype/topojson.js" />
+        <option value="$PROJECT_DIR$/docs/prototype/visualization.js" />
       </list>
     </option>
   </component>
@@ -219,12 +209,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
-      <workItem from="1524779245674" duration="8667000" />
+      <workItem from="1524779245674" duration="8869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10883000" />
+    <option name="totallyTimeSpent" value="11085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -332,14 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../slider/Map/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -348,18 +330,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
+    <entry file="file://$PROJECT_DIR$/docs/prototype/topojson.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        <state relative-caret-position="433">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/topojson.js">
+    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1000">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="199" column="26" lean-forward="false" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
           <folding />
         </state>
       </provider>

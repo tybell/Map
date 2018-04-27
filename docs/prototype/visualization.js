@@ -33,23 +33,23 @@
     var countries;
 
 
-    function loadGlobalData() {
+/*    function loadGlobalData() {
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
             dataArrayLoaded();
         });
-    }
+    }*/
 
-    function loadAttackData() {
+/*    function loadAttackData() {
         d3.csv("data.csv", function(rows) {
             dataArray = rows;
             // this method will not be called until the above data is fully loaded
             loadGlobalData();
         });
-    }
+    }*/
 
-    function dataArrayLoaded() {
+/*    function dataArrayLoaded() {
         // Num killed
         var numKilled = [];
         for (var i = 0; i < dataArray.length; i++) {
@@ -80,15 +80,15 @@
 
         // Make legend
         makeLegend();
-    }
+    }*/
 
     // for creating an array of years 1970-2015
-    function range(start, count) {
+/*    function range(start, count) {
         return Array.apply(0, Array(count + 1))
             .map(function (element, index) {
                 return index + start;
             });
-    }
+    }*/
     // *********END CARSON STUFF
 
     var projection = d3.geoMercator()
@@ -124,6 +124,7 @@
             })
     }
 
+/*
     function drawBubbles(attackData, radius, color) {
         // make bubbles on map
         var bubbles = g.selectAll(".bubbles")
@@ -190,6 +191,7 @@
                 + "<br/> Number killed: " + d.num_killed
                 + "<br/> Number of attacks: " + d.num_attacks);
     }
+*/
 
     // function customZoom(bubbles, radius) {
     // 	var zoom = d3.zoom()
