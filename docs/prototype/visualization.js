@@ -29,43 +29,6 @@
         .scale(width * [mapRatio + mapRatioAdjuster])
     var path = d3.geoPath().projection(projection);
 
-    var boroughs;
-    d3.queue()
-        .defer(d3.json, "boroughs.json")
-        .await(ready)
-
-    function ready (error, data) {
-        loadAttackData();
-        boroughs = topojson.feature(data, data.objects.nyc_boroughs).features
-        drawCountries(data);
-    }
-
-    function drawCountries (data) {
-        g.selectAll(".boroughs")
-            .data(boroughs)
-            .enter().append("path")
-            .attr("class", "boroughs")
-            .attr("d", path)
-            .on('mouseover', function(d) {
-                d3.select(this).classed("selected", true)
-            })
-            .on('mouseout', function(d) {
-                d3.select(this).classed("selected", false)
-            })
-        /*            .on('mouseover', function(d) {
-                        d3.select(this).classed("selected", true)
-                        dataArray.forEach(function(entry) {
-                            if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
-                                updatePanel(entry);
-                            }
-                        });
-
-                    })
-                    .on('mouseout', function(d) {
-                        d3.select(this).classed("selected", false)
-                        updatePanelWorld();
-                    })*/
-    }
 
 
     // *********CARSON STUFF --- selecting data by year
@@ -134,6 +97,43 @@
     }
     // *********END CARSON STUFF
 
+    var boroughs;
+    d3.queue()
+        .defer(d3.json, "boroughs.json")
+        .await(ready)
+
+    function ready (error, data) {
+        loadAttackData();
+        boroughs = topojson.feature(data, data.objects.nyc_boroughs).features
+        drawCountries(data);
+    }
+
+    function drawCountries (data) {
+        g.selectAll(".boroughs")
+            .data(boroughs)
+            .enter().append("path")
+            .attr("class", "boroughs")
+            .attr("d", path)
+            .on('mouseover', function(d) {
+                d3.select(this).classed("selected", true)
+            })
+            .on('mouseout', function(d) {
+                d3.select(this).classed("selected", false)
+            })
+        /*            .on('mouseover', function(d) {
+                        d3.select(this).classed("selected", true)
+                        dataArray.forEach(function(entry) {
+                            if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
+                                updatePanel(entry);
+                            }
+                        });
+
+                    })
+                    .on('mouseout', function(d) {
+                        d3.select(this).classed("selected", false)
+                        updatePanelWorld();
+                    })*/
+    }
 
     function drawBubbles(attackData, radius, color) {
         // make bubbles on map
@@ -181,7 +181,7 @@
         /*customZoom(bubbles, radius);*/
     }
 
-    function updatePanel(d) {
+/*    function updatePanel(d) {
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
                 + "<br/> Number killed: " + d.num_killed
@@ -199,8 +199,8 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
                 + "<br/> Number killed: " + d.num_killed
-                /*+ "<br/> Number of attacks: " + d.num_attacks*/);
-    }
+                /!*+ "<br/> Number of attacks: " + d.num_attacks*!/);
+    }*/
 
 /*    function customZoom(bubbles, radius) {
         var zoom = d3.zoom()
@@ -223,9 +223,9 @@
             containerWidth = 840,
             containerHeight = 40;
         sliderWidth = containerWidth - margin.left - margin.right,
-            sliderHeight = containerHeight
+        sliderHeight = containerHeight,
         startYear = 1970,
-            endYear = 2015;
+        endYear = 2015;
 
         var svgSlider = d3.select("#slider")
             .append("svg")
