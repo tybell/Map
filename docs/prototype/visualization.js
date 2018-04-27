@@ -42,7 +42,7 @@
     }
 
     function loadAttackData() {
-        d3.csv("data2.csv", function(rows) {
+        d3.csv("data.csv", function(rows) {
             dataArray = rows;
             // this method will not be called until the above data is fully loaded
             loadGlobalData();
