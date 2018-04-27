@@ -105,7 +105,7 @@
 
     function drawCountries (data) {
         g.selectAll(".borough")
-            .data(boroughs)
+            .data(borough)
             .enter().append("path")
             .attr("class", "borough")
             .attr("d", path)
