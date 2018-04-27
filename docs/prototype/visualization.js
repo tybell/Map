@@ -1,5 +1,5 @@
 (function() {
-    var currYear = 2000;
+    var currYear = new Date("2000-01-01");
 
     var sizeMin;
     var sizeMax;
@@ -113,7 +113,7 @@
             .attr("class", "country")
             .attr("d", path)
             .on('mouseover', function(d) {
-                d3.select(this).classed("selected", true)
+                d3.select(this).classed("selected", true);
                 dataArray.forEach(function(entry) {
                     if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
                         updatePanel(entry);
@@ -211,21 +211,23 @@
     }
 
     function makeSlider(dataArray, radius, color) {
-        var margin = {right: 15, left: 15},
+        var formatDate = d3.timeFormat("%b %Y");
+        var formatDateIntoYear = d3.timeFormat("%Y");
+        var    margin = {right: 15, left: 15},
             containerWidth = 840,
-            containerHeight = 40;
-        sliderWidth = containerWidth - margin.left - margin.right,
-            sliderHeight = containerHeight
-        startYear = 2000,
-            endYear = 2017;
+            containerHeight = 40,
+            sliderWidth = containerWidth - margin.left - margin.right,
+            sliderHeight = containerHeight,
+            startDate = new Date("2000-01-01"),
+            endDate = new Date("2017-12-31");
 
         var svgSlider = d3.select("#slider")
             .append("svg")
             .attr("height", containerHeight)
             .attr("width", containerWidth);
 
-        var x = d3.scaleLinear()
-            .domain([startYear, endYear])
+        var x = d3.scaleTime()
+            .domain([startDate, endDate])
             .range([0, sliderWidth])
             .clamp(true);
 
@@ -255,8 +257,13 @@
             .enter().append("text")
             .attr("x", x)
             .attr("text-anchor", "middle")
-            .text(function(d) { return d; });
+            .text(function(d) { return formatDateIntoYear(d); });
 
+        var label = slider.append("text")
+            .attr("class","label")
+            .attr("text-anchor","middle")
+            .text(formatDate(startDate))
+            .attr("transform","translate(0,"+(-25)+")");
         // Handle
         var handle = slider.insert("circle", ".track-overlay")
             .attr("class", "handle")
