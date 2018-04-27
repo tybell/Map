@@ -6,8 +6,8 @@
     var rangeMin = 2;
     var rangeMax = 50;
 
-    var height = 800,
-        width = 800;
+    var height = 500,
+        width = 770;
 
     var colorRangeStart = "#315f8e",
         colorRangeEnd = "#b00c38";
@@ -96,7 +96,7 @@
     var projection = d3.geoMercator()
         .translate([width/2, height/2+50])
         .center(nyc_center)
-        .scale(width*(mapRatio+mapRatioAdjuster));
+        .scale(width*(mapRatio+mapRatioAdjuster/2));
 
     var path = d3.geoPath().projection(projection);
 
