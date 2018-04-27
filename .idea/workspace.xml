@@ -36,8 +36,8 @@
       <file leaf-file-name="visualization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="99" column="34" lean-forward="true" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -66,18 +66,8 @@
       <file leaf-file-name="world-countries.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/prototype/world-countries.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="0" column="79062" lean-forward="false" selection-start-line="0" selection-start-column="79057" selection-end-line="0" selection-end-column="79062" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boroughs.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541525">
-              <caret line="7" column="315672" lean-forward="false" selection-start-line="7" selection-start-column="315672" selection-end-line="7" selection-end-column="315672" />
+            <state relative-caret-position="13250">
+              <caret line="0" column="79069" lean-forward="true" selection-start-line="0" selection-start-column="79069" selection-end-line="0" selection-end-column="79069" />
               <folding />
             </state>
           </provider>
@@ -98,6 +88,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
               <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boroughs.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="1" column="715" lean-forward="false" selection-start-line="1" selection-start-column="715" selection-end-line="1" selection-end-column="715" />
               <folding />
             </state>
           </provider>
@@ -223,12 +223,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524774985499</updated>
       <workItem from="1524774988132" duration="2216000" />
-      <workItem from="1524779245674" duration="11683000" />
+      <workItem from="1524779245674" duration="11963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13899000" />
+    <option name="totallyTimeSpent" value="14179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -320,14 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/terminal for installing stuff">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
@@ -360,26 +352,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/prototype/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/world-countries.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="0" column="79062" lean-forward="false" selection-start-line="0" selection-start-column="79057" selection-end-line="0" selection-end-column="79062" />
+        <state relative-caret-position="13250">
+          <caret line="0" column="79069" lean-forward="true" selection-start-line="0" selection-start-column="79069" selection-end-line="0" selection-end-column="79069" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/boroughs.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541525">
-          <caret line="7" column="315672" lean-forward="false" selection-start-line="7" selection-start-column="315672" selection-end-line="7" selection-end-column="315672" />
+        <state relative-caret-position="150">
+          <caret line="1" column="715" lean-forward="false" selection-start-line="1" selection-start-column="715" selection-end-line="1" selection-end-column="715" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/prototype/visualization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="99" column="34" lean-forward="true" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
           <folding />
         </state>
       </provider>

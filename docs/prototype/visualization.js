@@ -99,7 +99,7 @@
 
     function ready (error, data) {
         //loadAttackData();
-        borough = topojson.feature(data, data.features.borough1).features;
+        borough = topojson.feature(data, data.objects.borough1).features;
         drawCountries(data);
     }
 
