@@ -91,13 +91,24 @@
     }*/
     // *********END CARSON STUFF
 
-    var projection = d3.geoMercator()
+    var projection = d3.geo.albers()
         .translate([width/2, height/2+50])
         .scale(20000);
 
     var path = d3.geoPath().projection(projection);
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+    d3.json("boroughs.json", function(error, nyc) {
+        if (error) return console.error(error);
 
-    function ready (error, data) {
+        svg.append("path")
+            .datum(topojson.feature(nyc, nyc.objects.features))
+            .attr("d", path)
+            .attr("class", "country");
+    });
+
+/*    function ready (error, data) {
         //loadAttackData();
         boroughs = topojson.feature(data, data.objects.nyc_boroughs).features;
         drawCountries(data);
@@ -109,7 +120,7 @@
             .enter().append("path")
             .attr("class", "country")
             .attr("d", path)
- /*           .on('mouseover', function(d) {
+ /!*           .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
 /!*                dataArray.forEach(function(entry) {
                     if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
@@ -121,8 +132,8 @@
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
                 /!*updatePanelWorld();*!/
-            })*/
-    }
+            })*!/
+    }*/
 
 /*
     function drawBubbles(attackData, radius, color) {
