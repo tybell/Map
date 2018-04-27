@@ -167,7 +167,7 @@
 
 		    });
 
-		    customZoom(bubbles, radius);
+		    //customZoom(bubbles, radius);
 	}
 
 	// function updatePanel(d) {
