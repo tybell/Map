@@ -30,7 +30,7 @@
     var dataArray;
     var globalData;
     var selectedYearDataArray;
-    var borough;
+    var boroughs;
 
 
 /*    function loadGlobalData() {
@@ -93,29 +93,26 @@
 
     var projection = d3.geoMercator()
         .translate([width/2, height/2+50])
-        .scale(20000)
+        .scale(20000);
 
     var path = d3.geoPath().projection(projection);
 
     function ready (error, data) {
         //loadAttackData();
-        borough = topojson.feature(data, data.objects.borough1).features;
-        drawCountries(data);
-    }
-
-    function drawCountries (data) {
+        boroughs = topojson.feature(data, data.objects.borough1).features;
         g.selectAll(".borough")
-            .data(borough)
-            .enter().append("path")
+            .data(boroughs)
+            .enter()
+            .append("path")
             .attr("class", "borough")
             .attr("d", path)
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
-/*                dataArray.forEach(function(entry) {
-                    if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
-                        updatePanel(entry);
-                    }
-                });*/
+                /*                dataArray.forEach(function(entry) {
+                                    if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
+                                        updatePanel(entry);
+                                    }
+                                });*/
 
             })
             .on('mouseout', function(d) {
