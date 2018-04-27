@@ -216,8 +216,8 @@
             containerHeight = 40;
         sliderWidth = containerWidth - margin.left - margin.right,
             sliderHeight = containerHeight
-        startYear = 1970,
-            endYear = 2015;
+        startYear = 2000,
+            endYear = 2017;
 
         var svgSlider = d3.select("#slider")
             .append("svg")
