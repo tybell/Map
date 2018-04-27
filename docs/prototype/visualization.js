@@ -1,5 +1,5 @@
 (function() {
-    var currYear = moment("2000-01-01","YYYY-MM-DD").unix();
+    var currYear = 2000;
 
     var sizeMin;
     var sizeMax;
@@ -42,7 +42,7 @@
     }
 
     function loadAttackData() {
-        d3.csv("data2.csv", function(rows) {
+        d3.csv("data.csv", function(rows) {
             dataArray = rows;
             // this method will not be called until the above data is fully loaded
             loadGlobalData();
@@ -115,8 +115,7 @@
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
                 dataArray.forEach(function(entry) {
-                    var item_year = moment(entry.iyear,"YYYY/MM/DD").unix()
-                    if (entry.alpha_3_code == d.id && item_year == currYear) {
+                    if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
                         updatePanel(entry);
                     }
                 });
@@ -184,8 +183,7 @@
     function updatePanelWorld() {
         var d;
         globalData.forEach(function(entry) {
-            var item_year = moment(entry.iyear,"YYYY/MM/DD").unix()
-            if (item_year == currYear) {
+            if (entry.iyear == currYear) {
                 d = entry;
             }
         });
@@ -216,9 +214,9 @@
         var margin = {right: 15, left: 15},
             containerWidth = 840,
             containerHeight = 40;
-            sliderWidth = containerWidth - margin.left - margin.right,
+        sliderWidth = containerWidth - margin.left - margin.right,
             sliderHeight = containerHeight
-            startYear = 2000,
+        startYear = 2000,
             endYear = 2017;
 
         var svgSlider = d3.select("#slider")
@@ -280,8 +278,7 @@
             currYear = selectedYear;
 
             dataArray.forEach(function(entry) {
-                var item_year = moment(entry.iyear,"YYYY/MM/DD").unix()
-                if (item_year == selectedYear) {
+                if (entry.iyear == selectedYear) {
                     selectedYearDataArray.push(entry);
                 }
             });
