@@ -1,4 +1,4 @@
-pvar topojson = {
+var topojson = {
   version: "0.0.1",
   mesh: function(topology) {
     var kx = topology.transform.scale[0],
