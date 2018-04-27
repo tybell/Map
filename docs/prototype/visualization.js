@@ -98,7 +98,7 @@
     var path = d3.geoPath().projection(projection)
 
     function ready (error, data) {
-        loadAttackData();
+        //loadAttackData();
         countries = topojson.feature(data, data.objects.countries1).features
         drawCountries(data);
     }
@@ -111,16 +111,16 @@
             .attr("d", path)
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
-                dataArray.forEach(function(entry) {
+/*                dataArray.forEach(function(entry) {
                     if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
                         updatePanel(entry);
                     }
-                });
+                })*/;
 
             })
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
-                updatePanelWorld();
+                /*updatePanelWorld();*/
             })
     }
 
@@ -209,7 +209,7 @@
     // 	d3.select('#map').select('svg').call(zoom);
     // }
 
-    function makeSlider(dataArray, radius, color) {
+    /*function makeSlider(dataArray, radius, color) {
         var margin = {right: 15, left: 15},
             containerWidth = 840,
             containerHeight = 40;
@@ -291,7 +291,7 @@
 
         // Manually call to instantiate map upon load
         handleDrag(x.invert(0));
-    }
+    }*/
 
     // function makeLegend() {
     // 	// size
