@@ -28,7 +28,7 @@
 	// load data and convert to array
 	// store data for reference elsewhere
 	var dataArray;
-	//var globalData;
+	var globalData;
 	var selectedYearDataArray;
 	var countries;
 
@@ -36,7 +36,7 @@
 	function loadGlobalData() {
 		d3.csv("global_data.csv", function(rows) {
 			globalData = rows;
-			//updatePanelWorld();
+			updatePanelWorld();
 			dataArrayLoaded();
 		});
 	}
@@ -79,7 +79,7 @@
 		makeSlider(dataArray, radius, color);
 
 		// Make legend
-		makeLegend();
+		//makeLegend();
 	}
 
 	// for creating an array of years 1970-2015
@@ -113,14 +113,14 @@
 				d3.select(this).classed("selected", true)
 				dataArray.forEach(function(entry) {
 					if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
-						//updatePanel(entry);
+						updatePanel(entry);
 					}
 				});
 
 			})
 			.on('mouseout', function(d) {
 				d3.select(this).classed("selected", false)
-				//updatePanelWorld();
+				updatePanelWorld();
 			})
 	}
 
@@ -147,7 +147,7 @@
 			// fade in on mouseover
 			.on("mouseover", function(d) {
 
-           		//updatePanel(d);
+           		updatePanel(d);
 
 				this.parentNode.appendChild(this);
 
@@ -163,33 +163,33 @@
 		           .style("opacity", 0.8)
 		           .style("stroke", "none");
 
-		        //updatePanelWorld();
+		        updatePanelWorld();
 
 		    });
 
 		    //customZoom(bubbles, radius);
 	}
 
-	// function updatePanel(d) {
-	// 	d3.select("#panelInfo")
-	// 		.html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-	// 			+ "<br/> Number killed: " + d.num_killed
-	// 			+ "<br/> Number of attacks: " + d.num_attacks);
-	// }
+	function updatePanel(d) {
+		d3.select("#panelInfo")
+			.html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
+				+ "<br/> Number killed: " + d.num_killed
+				+ "<br/> Number of attacks: " + d.num_attacks);
+	}
 
-	// function updatePanelWorld() {
-	// 	var d;
-	// 	globalData.forEach(function(entry) {
-	// 		if (entry.iyear == currYear) {
-	// 			d = entry;
-	// 		}
-	// 	});
+	function updatePanelWorld() {
+		var d;
+		globalData.forEach(function(entry) {
+			if (entry.iyear == currYear) {
+				d = entry;
+			}
+		});
 
-	// 	d3.select("#panelInfo")
-	// 		.html("<span id=\"countryTitle\">" + currYear + " | World</span>"
-	// 			+ "<br/> Number killed: " + d.num_killed
-	// 			+ "<br/> Number of attacks: " + d.num_attacks);
-	// }
+		d3.select("#panelInfo")
+			.html("<span id=\"countryTitle\">" + currYear + " | World</span>"
+				+ "<br/> Number killed: " + d.num_killed
+				+ "<br/> Number of attacks: " + d.num_attacks);
+	}
 
 	// function customZoom(bubbles, radius) {
 	// 	var zoom = d3.zoom()
@@ -284,7 +284,7 @@
 			var circles = svg.selectAll("circle");
 			circles.remove();
 			drawBubbles(selectedYearDataArray, radius, color);
-			//updatePanelWorld();
+			updatePanelWorld();
 		}
 
 		// Manually call to instantiate map upon load
