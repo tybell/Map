@@ -113,7 +113,7 @@
 				d3.select(this).classed("selected", true)
 				dataArray.forEach(function(entry) {
 					if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
-						updatePanel(entry);
+						//updatePanel(entry);
 					}
 				});
 
@@ -147,7 +147,7 @@
 			// fade in on mouseover
 			.on("mouseover", function(d) {
 
-           		updatePanel(d);
+           		//updatePanel(d);
 
 				this.parentNode.appendChild(this);
 
@@ -170,12 +170,12 @@
 		    //customZoom(bubbles, radius);
 	}
 
-	function updatePanel(d) {
-		d3.select("#panelInfo")
-			.html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-				+ "<br/> Number killed: " + d.num_killed
-				+ "<br/> Number of attacks: " + d.num_attacks);
-	}
+	// function updatePanel(d) {
+	// 	d3.select("#panelInfo")
+	// 		.html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
+	// 			+ "<br/> Number killed: " + d.num_killed
+	// 			+ "<br/> Number of attacks: " + d.num_attacks);
+	// }
 
 	// function updatePanelWorld() {
 	// 	var d;
