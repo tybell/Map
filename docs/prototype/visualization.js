@@ -176,8 +176,8 @@
     function updatePanel(d) {
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-                + "<br/> Number killed: " + d.num_killed
-                + "<br/> Number of attacks: " + d.num_attacks);
+                + "<br/> Number served: " + d.num_killed
+                + "<br/> Number of children served: " + d.num_attacks);
     }
 
     function updatePanelWorld() {
