@@ -1,5 +1,5 @@
 (function() {
-    var currYear = 1970;
+    var currYear = 2000;
 
     var sizeMin;
     var sizeMax;
@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        d3.csv("global_data.csv", function(rows) {
+        d3.csv("global_data1.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
             dataArrayLoaded();
