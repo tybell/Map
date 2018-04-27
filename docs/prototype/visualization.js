@@ -1,5 +1,5 @@
 (function() {
-    var currYear = 2000;
+    var currYear = 1970;
 
     var sizeMin;
     var sizeMax;
@@ -176,7 +176,7 @@
     function updatePanel(d) {
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-                + "<br/> Number served: " + d.num_killed
+                + "<br/> Number killed: " + d.num_killed
                 + "<br/> Number of attacks: " + d.num_attacks);
     }
 
@@ -190,7 +190,7 @@
 
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
-                + "<br/> Number served: " + d.num_killed
+                + "<br/> Number killed: " + d.num_killed
                 + "<br/> Number of attacks: " + d.num_attacks);
     }
 
