@@ -1,10 +1,10 @@
 iyear,country_txt,alpha_3_code,latitude,longitude,num_killed,num_attacked
-2000,Harlem Community Nutritional Service Agency,80596,40.8082615,-73.9472409,1125,1125
-2001,Deeper Life Charities,84128,40.8161299,-73.9258284,4958,4958
-2001,"Iglesia Cristiana Luz del Mundo, Inc.",82232,40.6484986,-74.0110015,2973,2973
-2002,Deeper Life Charities,84128,40.8161299,-73.9258284,7448,7448
-2002,"Iglesia Cristiana Luz del Mundo, Inc.",82232,40.6484986,-74.0110015,744,744
-2002,Harlem Community Nutritional Service Agency,80596,40.8082615,-73.9472409,1903,1903
+2000/1/1,Harlem Community Nutritional Service Agency,80596,40.8082615,-73.9472409,1125,1125
+2001/1/1,Deeper Life Charities,84128,40.8161299,-73.9258284,4958,4958
+2001/2/1,"Iglesia Cristiana Luz del Mundo, Inc.",82232,40.6484986,-74.0110015,2973,2973
+2002/5/1,Deeper Life Charities,84128,40.8161299,-73.9258284,7448,7448
+2002/6/1,"Iglesia Cristiana Luz del Mundo, Inc.",82232,40.6484986,-74.0110015,744,744
+2002/7/1,Harlem Community Nutritional Service Agency,80596,40.8082615,-73.9472409,1903,1903
 2002,Douglas Leon Senior Citizen Center,87230,40.816099,-73.9072,1970,1970
 2002,Good Shepherd - The Pantry,80581,40.8689554,-73.921066,761,761
 2003,"Iglesia Cristiana Luz del Mundo, Inc.",82232,40.6484986,-74.0110015,13183,13183
