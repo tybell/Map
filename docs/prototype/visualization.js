@@ -109,19 +109,19 @@
             .enter().append("path")
             .attr("class", "borough")
             .attr("d", path)
-            .on('mouseover', function(d) {
+ /*           .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
-/*                dataArray.forEach(function(entry) {
+/!*                dataArray.forEach(function(entry) {
                     if (entry.alpha_3_code == d.id && entry.iyear == currYear) {
                         updatePanel(entry);
                     }
-                })*/;
+                })*!/;
 
             })
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
-                /*updatePanelWorld();*/
-            })
+                /!*updatePanelWorld();*!/
+            })*/
     }
 
 /*
