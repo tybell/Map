@@ -21,7 +21,7 @@
     var g = svg.append("g");
 
     d3.queue()
-        .defer(d3.json, "world-countries.json")
+        .defer(d3.json, "boroughs.json")
         .await(ready)
 
     // *********CARSON STUFF --- selecting data by year
@@ -30,7 +30,7 @@
     var dataArray;
     var globalData;
     var selectedYearDataArray;
-    var countries;
+    var boroughs;
 
 
 /*    function loadGlobalData() {
@@ -99,15 +99,15 @@
 
     function ready (error, data) {
         //loadAttackData();
-        countries = topojson.feature(data, data.objects.countries1).features
+        boroughs = topojson.feature(data, data.objects.nyc_boroughs).features
         drawCountries(data);
     }
 
     function drawCountries (data) {
-        g.selectAll(".country")
-            .data(countries)
+        g.selectAll(".borough")
+            .data(boroughs)
             .enter().append("path")
-            .attr("class", "country")
+            .attr("class", "borough")
             .attr("d", path)
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
