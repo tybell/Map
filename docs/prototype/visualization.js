@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("add facility type");
+        console.log("update facility type");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
