@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("It works!2");
+        console.log("It works!3");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
