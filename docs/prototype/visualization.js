@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("updateslidersize");
+        console.log("make shelters green");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             //updatePanelWorld();
@@ -148,13 +148,13 @@
             		return "#f58231" // Orange
             	}
             	else if (d.FacilityType == "Shelter"){
-            		return "#e6194b" // Red
+            		return "#3cb44b" // Green
             	}
             	else if (d.FacilityType == "Senior Center"){
             		return "#ffe119" // Yellow
             	}
             	else if (d.FacilityType == "Day Care"){
-            		return "#3cb44b" // Green
+            		return "#e6194b" // Red
             	}
             	else{
             		return "#911eb4" // Purple
