@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("make shelters green");
+        console.log("lower opacity");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             //updatePanelWorld();
@@ -161,7 +161,7 @@
                 	//return color(d.num_attacks);
             	}
             })
-            .style("opacity", 0.8)
+            .style("opacity", 0.7)
             // fade in on mouseover
             .on("mouseover", function(d) {
 
@@ -178,7 +178,7 @@
             .on("mouseout", function(d) {
                 d3.select(this).transition()
                     .duration(500)
-                    .style("opacity", 0.8)
+                    .style("opacity", 0.7)
                     .style("stroke", "none");
 
                 //updatePanelWorld();
