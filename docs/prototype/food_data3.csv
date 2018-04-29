@@ -1,4 +1,4 @@
-country_txt,alpha_3_code,iyear,latitude,longitude,DistributionAddress,FacilityType,num_killed,num_attacked,csn_adults,csn_seniors
+country_txt,alpha_3_code,iyear,latitude,longitude,DistributionAddress,FacilityType,num_killed,num_attacks,csn_adults,csn_seniors
 Harlem Community Nutritional Service Agency,80596,2000,40.8082615,-73.9472409,132 West 125th Street,Food Pantry,1125,1001,87,37
 Harlem Community Nutritional Service Agency,80596,2002,40.8082615,-73.9472409,132 West 125th Street,Food Pantry,16962,8373,6449,2140
 Harlem Community Nutritional Service Agency,80596,2003,40.8082615,-73.9472409,132 West 125th Street,Food Pantry,14960,7953,6260,747
