@@ -24,20 +24,16 @@
         .defer(d3.json, "boroughs.json")
         .await(ready);
 
-    // *********CARSON STUFF --- selecting data by year
-    // load data and convert to array
-    // store data for reference elsewhere
     var dataArray;
     var globalData;
     var selectedYearDataArray;
     var countries;
 
-
     function loadGlobalData() {
-        console.log("panel removed");
+        console.log("edit");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
-            //updatePanelWorld();
+            updatePanelWorld();
             dataArrayLoaded();
         });
     }
@@ -123,7 +119,7 @@
 
             })
             .on('mouseout', function(d) {
-                //d3.select(this).classed("selected", false)
+                d3.select(this).classed("selected", false)
                 //updatePanelWorld();
             })
     }
@@ -145,10 +141,10 @@
                 return coords[1];
             })
             .style("fill", function (d) {
-            	if (d.FacilityType == "Food Pantry"){
+            	if (d.FacilityType == "Soup Kitchen"){
             		return "#0082c8" //Blue
             	}
-            	else if (d.FacilityType == "Soup Kitchen"){
+            	else if (d.FacilityType == "Food Pantry"){
             		return "#f58231" // Orange
             	}
             	else if (d.FacilityType == "Shelter"){
