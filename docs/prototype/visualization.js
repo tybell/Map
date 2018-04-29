@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("edit3");
+        console.log("updateslidersize");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -240,8 +240,8 @@
 
         var svgSlider = d3.select("#slider")
             .append("svg")
-            .attr("height", containerHeight)
-            .attr("width", containerWidth);
+            .attr("height", containerHeight*1.5)
+            .attr("width", containerWidth*2);
 
         var x = d3.scaleLinear()
             .domain([startYear, endYear])
