@@ -34,10 +34,10 @@
 
 
     function loadGlobalData() {
-        console.log("colors3");
+        console.log("no world panel");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
-            updatePanelWorld();
+            //updatePanelWorld();
             dataArrayLoaded();
         });
     }
@@ -124,7 +124,7 @@
             })
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
-                updatePanelWorld();
+                //updatePanelWorld();
             })
     }
 
@@ -146,21 +146,22 @@
             })
             .style("fill", function (d) {
             	if (d.FacilityType == "Food Pantry"){
-            		return "#0082c8"
+            		return "#0082c8" //Blue
             	}
             	else if (d.FacilityType == "Soup Kitchen"){
-            		return "#f58231"
+            		return "#f58231" // Orange
             	}
             	else if (d.FacilityType == "Shelter"){
-            		return "#e619eb"
+            		return "#e619eb" // Red
             	}
             	else if (d.FacilityType == "Senior Center"){
-            		return "#ffe119"
+            		return "#ffe119" // Yellow
             	}
-            	else if (d.FacilityType == "Day Care")
-            		return "#3cb44b"
+            	else if (d.FacilityType == "Day Care"){
+            		return "#3cb44b" // Green
+            	}
             	else{
-            		return "#911eb4"
+            		return "#911eb4" // Purple
                 	//return color(d.num_attacks);
             	}
             })
@@ -184,7 +185,7 @@
                     .style("opacity", 0.8)
                     .style("stroke", "none");
 
-                updatePanelWorld();
+                //updatePanelWorld();
 
             });
 
@@ -309,7 +310,7 @@
             var circles = svg.selectAll("circle");
             circles.remove();
             drawBubbles(selectedYearDataArray, radius, color);
-            updatePanelWorld();
+            //updatePanelWorld();
         }
 
         // Manually call to instantiate map upon load
