@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("add panel");
+        console.log("panel removed");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             //updatePanelWorld();
@@ -310,7 +310,7 @@
             var circles = svg.selectAll("circle");
             circles.remove();
             drawBubbles(selectedYearDataArray, radius, color);
-            updatePanel();
+            //updatePanel();
             //updatePanelWorld();
         }
 
