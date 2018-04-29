@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("attacks");
+        console.log("colors");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -145,7 +145,13 @@
                 return coords[1];
             })
             .style("fill", function (d) {
-                return color(d.num_attacks);
+            	if (d.FacilityType == "Soup kitchen"){
+            		return "#f58231"
+            	}
+            	else{
+            		return "46f0f0"
+                	//return color(d.num_attacks);
+            	}
             })
             .style("opacity", 0.8)
             // fade in on mouseover
