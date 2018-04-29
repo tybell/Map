@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("colors2");
+        console.log("colors3");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -145,14 +145,22 @@
                 return coords[1];
             })
             .style("fill", function (d) {
-            	if (d.FacilityType == "Soup Kitchen"){
+            	if (d.FacilityType == "Food Pantry"){
+            		return "#0082c8"
+            	}
+            	else if (d.FacilityType == "Soup Kitchen"){
             		return "#f58231"
             	}
-            	else if (d.FacilityType == "Food Pantry"){
+            	else if (d.FacilityType == "Shelter"){
+            		return "#e619eb"
+            	}
+            	else if (d.FacilityType == "Senior Center"){
             		return "#ffe119"
             	}
+            	else if (d.FacilityType == "Day Care")
+            		return "#3cb44b"
             	else{
-            		return "46f0f0"
+            		return "#911eb4"
                 	//return color(d.num_attacks);
             	}
             })
