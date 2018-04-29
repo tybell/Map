@@ -148,7 +148,7 @@
             		return "#f58231" // Orange
             	}
             	else if (d.FacilityType == "Shelter"){
-            		return "#e619eb" // Red
+            		return "#e6194b" // Red
             	}
             	else if (d.FacilityType == "Senior Center"){
             		return "#ffe119" // Yellow
