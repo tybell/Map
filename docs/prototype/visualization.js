@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("colors");
+        console.log("colors2");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -145,8 +145,11 @@
                 return coords[1];
             })
             .style("fill", function (d) {
-            	if (d.FacilityType == "Soup kitchen"){
+            	if (d.FacilityType == "Soup Kitchen"){
             		return "#f58231"
+            	}
+            	else if (d.FacilityType == "Food Pantry"){
+            		return "#ffe119"
             	}
             	else{
             		return "46f0f0"
