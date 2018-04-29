@@ -177,8 +177,12 @@
     function updatePanel(d) {
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-                + "<br/> Number served: " + d.num_killed
-                + "<br/> Number of children served: " + d.num_attacks);
+            	+ "<br/> Address: " + d.DistributionAddress
+            	+ "<br/> Facility Type: " + d.FacilityType
+                + "<br/> Total served: " + d.num_killed
+                + "<br/> Adults served: " + d.csn_adults
+                + "<br/> Seniors served: " + d.csn_seniors
+                + "<br/> Children served: " + d.num_attacks);
     }
 
     function updatePanelWorld() {
