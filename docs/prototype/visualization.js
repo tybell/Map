@@ -30,7 +30,7 @@
     var dataArray;
     var globalData;
     var selectedYearDataArray;
-    var countries;
+    var boroughs;
 
 
     function loadGlobalData() {
@@ -103,15 +103,15 @@
 
     function ready (error, data) {
         loadAttackData();
-        countries = topojson.feature(data, data.objects.boroughs).features;
-        drawCountries(data);
+        boroughs = topojson.feature(data, data.objects.boroughs).features;
+        drawBoroughs(data);
     }
 
-    function drawCountries (data) {
-        g.selectAll(".country")
-            .data(countries)
+    function drawBoroughs (data) {
+        g.selectAll(".borough")
+            .data(boroughs)
             .enter().append("path")
-            .attr("class", "country")
+            .attr("class", "borough")
             .attr("d", path)
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
@@ -176,7 +176,7 @@
 
     function updatePanel(d) {
         d3.select("#panelInfo")
-            .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
+            .html("<span id=\"boroughTitle\">" + currYear + " | " + d.borough_txt + "</span>"
                 + "<br/> Number served: " + d.num_killed
                 + "<br/> Number of children served: " + d.num_attacks);
     }
@@ -190,7 +190,7 @@
         });
 
         d3.select("#panelInfo")
-            .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
+            .html("<span id=\"boroughTitle\">" + currYear + " | World</span>"
                 + "<br/> Number served: " + d.num_killed
                 + "<br/> Number of children served: " + d.num_attacks);
     }
