@@ -33,7 +33,7 @@
         console.log("updateslidersize");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
-            updatePanelWorld();
+            //updatePanelWorld();
             dataArrayLoaded();
         });
     }
