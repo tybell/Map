@@ -6,8 +6,8 @@
     var rangeMin = 2;
     var rangeMax = 50;
 
-    var height = 500*2,
-        width = 770*2;
+    var height = 500*1.5,
+        width = 770*1.5;
 
     var colorRangeStart = "#315f8e",
         colorRangeEnd = "#b00c38";
@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("edit2");
+        console.log("edit3");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
