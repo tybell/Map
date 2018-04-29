@@ -34,7 +34,7 @@
 
 
     function loadGlobalData() {
-        console.log("no world panel");
+        console.log("add panel");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
             //updatePanelWorld();
@@ -123,7 +123,7 @@
 
             })
             .on('mouseout', function(d) {
-                d3.select(this).classed("selected", false)
+                //d3.select(this).classed("selected", false)
                 //updatePanelWorld();
             })
     }
@@ -310,6 +310,7 @@
             var circles = svg.selectAll("circle");
             circles.remove();
             drawBubbles(selectedYearDataArray, radius, color);
+            updatePanel();
             //updatePanelWorld();
         }
 
