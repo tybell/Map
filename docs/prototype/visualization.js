@@ -210,7 +210,7 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
                 + "<br/> Number of Facilities: " + d.num_killed
-                + "<br/> Number Served: " + d.num_attacks
+                + "<br/> Number Served: " + d.num_attacked
                 + "<br/> Number Served since 2000: " + d.total_served);
     }
 
