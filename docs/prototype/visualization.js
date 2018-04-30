@@ -33,7 +33,7 @@
         console.log("worldpanel");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
-            //updatePanelWorld();
+            updatePanelWorld();
             dataArrayLoaded();
         });
     }
