@@ -5,9 +5,8 @@
     var sizeMax;
     var rangeMin = 2;
     var rangeMax = 50;
-
-    var height = 500,
-        width = 770;
+    var height = 500*1.5,
+        width = 770*1.5;
 
     var colorRangeStart = "#315f8e",
         colorRangeEnd = "#b00c38";
@@ -24,26 +23,22 @@
         .defer(d3.json, "boroughs.json")
         .await(ready);
 
-    // *********CARSON STUFF --- selecting data by year
-    // load data and convert to array
-    // store data for reference elsewhere
     var dataArray;
     var globalData;
     var selectedYearDataArray;
     var countries;
 
-
     function loadGlobalData() {
-        console.log("It works!");
+        console.log("lower opacity");
         d3.csv("global_data.csv", function(rows) {
             globalData = rows;
-            updatePanelWorld();
+            //updatePanelWorld();
             dataArrayLoaded();
         });
     }
 
     function loadAttackData() {
-        d3.csv("data.csv", function(rows) {
+        d3.csv("food_data3.csv", function(rows) {
             dataArray = rows;
             // this method will not be called until the above data is fully loaded
             loadGlobalData();
@@ -124,7 +119,7 @@
             })
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
-                updatePanelWorld();
+                //updatePanelWorld();
             })
     }
 
@@ -145,9 +140,27 @@
                 return coords[1];
             })
             .style("fill", function (d) {
-                return color(d.num_attacks);
+            	if (d.FacilityType == "Soup Kitchen"){
+            		return "#0082c8" //Blue
+            	}
+            	else if (d.FacilityType == "Food Pantry"){
+            		return "#f58231" // Orange
+            	}
+            	else if (d.FacilityType == "Shelter"){
+            		return "#3cb44b" // Green
+            	}
+            	else if (d.FacilityType == "Senior Center"){
+            		return "#ffe119" // Yellow
+            	}
+            	else if (d.FacilityType == "Day Care"){
+            		return "#e6194b" // Red
+            	}
+            	else{
+            		return "#911eb4" // Purple
+                	//return color(d.num_attacks);
+            	}
             })
-            .style("opacity", 0.8)
+            .style("opacity", 0.7)
             // fade in on mouseover
             .on("mouseover", function(d) {
 
@@ -164,10 +177,10 @@
             .on("mouseout", function(d) {
                 d3.select(this).transition()
                     .duration(500)
-                    .style("opacity", 0.8)
+                    .style("opacity", 0.7)
                     .style("stroke", "none");
 
-                updatePanelWorld();
+                //updatePanelWorld();
 
             });
 
@@ -177,8 +190,12 @@
     function updatePanel(d) {
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
-                + "<br/> Number served: " + d.num_killed
-                + "<br/> Number of children served: " + d.num_attacks);
+            	+ "<br/> Address: " + d.DistributionAddress
+            	+ "<br/> Facility Type: " + d.FacilityType
+                + "<br/> Total served: " + d.num_killed
+                + "<br/> Adults served: " + d.csn_adults
+                + "<br/> Seniors served: " + d.csn_seniors
+                + "<br/> Children served: " + d.num_attacks);
     }
 
     function updatePanelWorld() {
@@ -222,8 +239,8 @@
 
         var svgSlider = d3.select("#slider")
             .append("svg")
-            .attr("height", containerHeight)
-            .attr("width", containerWidth);
+            .attr("height", containerHeight*1.5)
+            .attr("width", containerWidth*2);
 
         var x = d3.scaleLinear()
             .domain([startYear, endYear])
@@ -288,7 +305,8 @@
             var circles = svg.selectAll("circle");
             circles.remove();
             drawBubbles(selectedYearDataArray, radius, color);
-            updatePanelWorld();
+            //updatePanel();
+            //updatePanelWorld();
         }
 
         // Manually call to instantiate map upon load
