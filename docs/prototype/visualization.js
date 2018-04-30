@@ -196,7 +196,7 @@
                 + "<br/> Total served: " + d.csn_total
                 + "<br/> Adults served: " + d.csn_adults
                 + "<br/> Seniors served: " + d.csn_seniors
-                + "<br/> Children served: " + d.csn_children;
+                + "<br/> Children served: " + d.csn_children);
     }
 
     function updatePanelWorld() {
