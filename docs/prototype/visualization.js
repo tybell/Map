@@ -26,10 +26,10 @@
     var selectedYearDataArray;
     var boroughs;
 
-    var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others", " "];
+    var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others", "  "];
 
     function loadGlobalData() {
-        console.log("add legend space");
+        console.log("add legend space2");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -323,6 +323,9 @@
             .attr("height", 12)
             .style("fill",function(d){
                 if (d == " "){
+                    return "#fafafa" //background color
+                }
+                else if (d == "  "){
                     return "#fafafa" //background color
                 }
                 else if (d == "Soup Kitchen"){
