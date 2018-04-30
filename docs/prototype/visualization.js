@@ -9,9 +9,6 @@
     var height = 500*1.5,
         width = 770*1.5;
 
-    // var colorRangeStart = "#315f8e",
-    //     colorRangeEnd = "#b00c38";
-
     var svg = d3.select("#map")
         .append("svg")
         .attr("height", height)
@@ -59,17 +56,6 @@
             .domain([sizeMin, sizeMax])
             .range([rangeMin, rangeMax]);
 
-        // // Num attacks
-        // var numAttacks = [];
-        // for (var i = 0; i < dataArray.length; i++) {
-        //     numAttacks.push(dataArray[i].csn_children);
-        // }
-        // var colorMin = Math.min.apply(Math, numAttacks);
-        // var colorMax = Math.max.apply(Math, numAttacks);
-
-        // var color = d3.scaleSqrt()
-        //     .domain([colorMin, colorMax])
-        //     .range([d3.rgb(colorRangeStart), d3.rgb(colorRangeEnd)]);
 
         // Make slider
         makeSlider(dataArray, radius);
@@ -207,8 +193,8 @@
 
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
-                + "<br/> Number of Facilities: " + d.num_killed
-                + "<br/> People Served: " + d.num_attacked
+                + "<br/> Number of Facilities: " + d.num_facilities
+                + "<br/> People Served: " + d.num_served
                 + "<br/> Total People Served: " + d.total_served);
     }
 
