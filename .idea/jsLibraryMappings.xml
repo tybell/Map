@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{@types/d3, @types/d3-geo, @types/geojson, @types/topojson, bootstrap, d3-legend, d3.v3, d3.v4, jquery-1.12.0, jquery-migrate-1.2.1, moment, topojson.v2}" />
-  </component>
-</project>
