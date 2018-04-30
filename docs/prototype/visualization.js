@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("worldpanel");
+        console.log("update");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -48,13 +48,13 @@
 
     function dataArrayLoaded() {
         // Num killed
-        var numKilled = [];
+        var numServed = [];
         for (var i = 0; i < dataArray.length; i++) {
-            numKilled.push(dataArray[i].num_killed);
+            numServed.push(dataArray[i].csn_total);
         }
 
-        sizeMin = Math.min.apply(Math, numKilled);
-        sizeMax = Math.max.apply(Math, numKilled);
+        sizeMin = Math.min.apply(Math, numServed);
+        sizeMax = Math.max.apply(Math, numServed);
 
         var radius = d3.scaleSqrt()
             .domain([sizeMin, sizeMax])
@@ -63,7 +63,7 @@
         // Num attacks
         var numAttacks = [];
         for (var i = 0; i < dataArray.length; i++) {
-            numAttacks.push(dataArray[i].num_attacks);
+            numAttacks.push(dataArray[i].csn_children);
         }
         var colorMin = Math.min.apply(Math, numAttacks);
         var colorMax = Math.max.apply(Math, numAttacks);
@@ -130,7 +130,7 @@
             .data(attackData)
             .enter().append("circle")
             .attr("r", function (d) {
-                return radius(d.num_killed);
+                return radius(d.csn_total);
             })
             .attr("cx", function (d) {
                 var coords = projection([d.longitude, d.latitude])
@@ -190,13 +190,13 @@
 
     function updatePanel(d) {
         d3.select("#panelInfo")
-            .html("<span id=\"countryTitle\">" + currYear + " | " + d.country_txt + "</span>"
+            .html("<span id=\"countryTitle\">" + currYear + " | " + d.EFP + "</span>"
             	+ "<br/> Address: " + d.DistributionAddress
             	+ "<br/> Facility Type: " + d.FacilityType
-                + "<br/> Total served: " + d.num_killed
+                + "<br/> Total served: " + d.csn_total
                 + "<br/> Adults served: " + d.csn_adults
                 + "<br/> Seniors served: " + d.csn_seniors
-                + "<br/> Children served: " + d.num_attacks);
+                + "<br/> Children served: " + d.csn_children;
     }
 
     function updatePanelWorld() {
@@ -222,7 +222,7 @@
                 radius.range([2/d3.event.transform.k, 50/d3.event.transform.k]);
                 bubbles
                     .attr('r', function(d) {
-                        return radius(d.num_killed);
+                        return radius(d.csn_total);
                     })
                     .attr("stroke-width", (0.5 / d3.event.transform.k) * 2 + "px");
             });
