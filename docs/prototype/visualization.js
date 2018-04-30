@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("update");
+        console.log("update2");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
