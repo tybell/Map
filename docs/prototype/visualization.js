@@ -9,8 +9,8 @@
     var height = 500*1.5,
         width = 770*1.5;
 
-    var colorRangeStart = "#315f8e",
-        colorRangeEnd = "#b00c38";
+    // var colorRangeStart = "#315f8e",
+    //     colorRangeEnd = "#b00c38";
 
     var svg = d3.select("#map")
         .append("svg")
@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("remove legend");
+        console.log("remove color");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -59,17 +59,17 @@
             .domain([sizeMin, sizeMax])
             .range([rangeMin, rangeMax]);
 
-        // Num attacks
-        var numAttacks = [];
-        for (var i = 0; i < dataArray.length; i++) {
-            numAttacks.push(dataArray[i].csn_children);
-        }
-        var colorMin = Math.min.apply(Math, numAttacks);
-        var colorMax = Math.max.apply(Math, numAttacks);
+        // // Num attacks
+        // var numAttacks = [];
+        // for (var i = 0; i < dataArray.length; i++) {
+        //     numAttacks.push(dataArray[i].csn_children);
+        // }
+        // var colorMin = Math.min.apply(Math, numAttacks);
+        // var colorMax = Math.max.apply(Math, numAttacks);
 
-        var color = d3.scaleSqrt()
-            .domain([colorMin, colorMax])
-            .range([d3.rgb(colorRangeStart), d3.rgb(colorRangeEnd)]);
+        // var color = d3.scaleSqrt()
+        //     .domain([colorMin, colorMax])
+        //     .range([d3.rgb(colorRangeStart), d3.rgb(colorRangeEnd)]);
 
         // Make slider
         makeSlider(dataArray, radius);
@@ -312,67 +312,5 @@
         handleDrag(x.invert(0));
     }
 
-    // function makeLegend() {
-    //     // size
-    //     var sizeHeight = 130,
-    //         sizeWidth = 300;
-
-    //     var sqrtSize = d3.scaleSqrt()
-    //         .domain([sizeMin, sizeMax])
-    //         .range([rangeMin, rangeMax]);
-
-    //     var sizeSvg = d3.select("#legend")
-    //         .append("svg")
-    //         .attr("height", sizeHeight)
-    //         .attr("width", sizeWidth);
-
-    //     sizeSvg.append("g")
-    //         .attr("class", "legendSize")
-    //         .attr("transform", "translate(30, 40)");
-
-    //     var legendSize = d3.legendSize()
-    //         .scale(sqrtSize)
-    //         .shape('circle')
-    //         .shapePadding(22)
-    //         .labelOffset(15)
-    //         .cells(5)
-    //         .cellFilter(function(d) {
-    //             if (d.data > 12000 || d.data < 5) {
-    //                 return false;
-    //             }
-    //             return true;
-    //         })
-    //         .orient("horizontal")
-    //         .labels(["1", "fewer", " ", "more deaths"]);
-
-    //     sizeSvg.select(".legendSize")
-    //         .call(legendSize);
-
-    //     // gradient
-    //     var gradientHeight = 60,
-    //         gradientWidth = 300;
-
-    //     var gradientSvg = d3.select("#legend")
-    //         .append("svg")
-    //         .attr("height", gradientHeight)
-    //         .attr("width", gradientWidth);
-
-    //     var linear = d3.scaleLinear()
-    //         .domain([0,10])
-    //         .range([colorRangeStart, colorRangeEnd]);
-
-    //     gradientSvg.append("g")
-    //         .attr("class", "legendLinear")
-    //         .attr("transform", "translate(10,20)");
-
-    //     var legendLinear = d3.legendColor()
-    //         .shapeWidth(43)
-    //         .orient('horizontal')
-    //         .scale(linear)
-    //         .labels(["fewer", " ", " ", " ", "more attacks"]);
-
-    //     gradientSvg.select(".legendLinear")
-    //         .call(legendLinear);
-    // }
 
 }) ();
