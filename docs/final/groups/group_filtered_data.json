@@ -1,0 +1,67 @@
+{
+  "gname": "groups",
+  "children": [
+    {
+      "gname": "Africa",
+      "children": [
+         {"gname": "National Union for the Total Independence of Angola (UNITA)", "count": 423, "nkill": 2694, "origin": "Africa"},
+         {"gname": "Fulani Militants", "count": 275, "nkill": 1903, "origin": "Africa"},
+         {"gname": "Hutus", "count": 166, "nkill": 4083, "origin": "Africa"},
+         {"gname": "Boko Haram", "count": 1724, "nkill": 16658, "origin": "Africa"},
+         {"gname": "Lord's Resistance Army (LRA)", "count": 273, "nkill": 3095, "origin": "Africa"},
+         {"gname": "Mozambique National Resistance Movement (MNR)", "count": 242, "nkill": 2505, "origin": "Africa"}
+      ]
+    },
+    {
+      "gname": "Asia",
+      "children": [
+         {"gname": "Liberation Tigers of Tamil Eelam (LTTE)", "count": 1737, "nkill": 12327, "origin": "Asia"},
+         {"gname": "Communist Party of India - Maoist (CPI-Maoist)", "count": 1581, "nkill": 2164, "origin": "Asia"},
+         {"gname": "Sikh Extremists", "count": 671, "nkill": 2784, "origin": "Asia"},
+         {"gname": "Maoists", "count": 935, "nkill": 1293, "origin": "Asia"},
+         {"gname": "New People's Army (NPA)", "count": 2028, "nkill": 4002, "origin": "Asia"}
+      ]
+    },
+    {
+      "gname": "Central America",
+      "children": [
+         {"gname": "Farabundo Marti National Liberation Front (FMLN)", "count": 3317, "nkill": 8052, "origin": "Central Am"},
+         {"gname": "Democratic Revolutionary Alliance (ARDE)", "count": 141, "nkill": 1803, "origin": "Central Am"},
+         {"gname": "Nicaraguan Democratic Force (FDN)", "count": 886, "nkill": 6643, "origin": "Central Am"}
+      ]
+    },
+    {
+      "gname": "Europe",
+      "children": [
+         {"gname": "Donetsk People's Republic", "count": 557, "nkill": 1601, "origin": "EU"},
+         {"gname": "Irish Republican Army (IRA)", "count": 2280, "nkill": 1722, "origin": "EU"},
+         {"gname": "Chechen Rebels", "count": 285, "nkill": 1614, "origin": "EU"}
+      ]
+    },
+    {
+      "gname": "Middle East",
+      "children": [
+         {"gname": "Kurdistan Workers' Party (PKK)", "count": 1697, "nkill": 4135, "origin": "ME"},
+         {"gname": "Al-Nusrah Front", "count": 206, "nkill": 2685, "origin": "ME"},
+         {"gname": "Hezbollah", "count": 356, "nkill": 1203, "origin": "ME"},
+         {"gname": "Tehrik-i-Taliban Pakistan (TTP)", "count": 1096, "nkill": 5279, "origin": "ME"},
+         {"gname": "Huthi Extremists", "count": 504, "nkill": 1660, "origin": "ME"},
+         {"gname": "Al-Shabaab", "count": 1980, "nkill": 5518, "origin": "ME"},
+         {"gname": "Taliban", "count": 5162, "nkill": 18906, "origin": "ME"},
+         {"gname": "Armed Islamic Group (GIA)", "count": 223, "nkill": 1452, "origin": "ME"},
+         {"gname": "Islamic State of Iraq and the Levant (ISIL)", "count": 2749, "nkill": 19852, "origin": "ME"},
+         {"gname": "Islamist Extremists", "count": 182, "nkill": 1154, "origin": "ME"},
+         {"gname": "Al-Qaida", "count": 1699, "nkill": 11880, "origin": "ME"}
+      ]
+    },
+    {
+      "gname": "South America",
+      "children": [
+         {"gname": "Revolutionary Armed Forces of Colombia (FARC)", "count": 2289, "nkill": 5492, "origin": "South Am"},
+         {"gname": "Shining Path (SL)", "count": 4332, "nkill": 11485, "origin": "South Am"},
+         {"gname": "National Liberation Army of Colombia (ELN)", "count": 1338, "nkill": 1545, "origin": "South Am"},
+         {"gname": "M-19 (Movement of April 19)", "count": 528, "nkill": 1311, "origin": "South Am"}
+      ]
+    }
+  ]
+}

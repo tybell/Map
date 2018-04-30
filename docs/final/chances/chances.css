@@ -1,0 +1,8 @@
+#chart-chances {
+	margin-top: 20px;
+}
+
+#chart-chances .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-45deg);
+}

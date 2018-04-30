@@ -67,13 +67,6 @@ circle {
 	fill-opacity: 1;
 }
 
-.borough {
-	fill: #e6e6e6;
-	stroke: #bababa;
-	stroke-width: 0.15pt;
-	fill-opacity: 1;
-}
-
 .selected {
 	fill: gray;
 }
