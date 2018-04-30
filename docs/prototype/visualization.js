@@ -30,8 +30,8 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("lower opacity");
-        d3.csv("global_data.csv", function(rows) {
+        console.log("worldpanel");
+        d3.csv("global2.csv", function(rows) {
             globalData = rows;
             //updatePanelWorld();
             dataArrayLoaded();
@@ -120,7 +120,7 @@
             })
             .on('mouseout', function(d) {
                 d3.select(this).classed("selected", false)
-                //updatePanelWorld();
+                updatePanelWorld();
             })
     }
 
@@ -181,7 +181,7 @@
                     .style("opacity", 0.7)
                     .style("stroke", "none");
 
-                //updatePanelWorld();
+                updatePanelWorld();
 
             });
 
@@ -306,8 +306,7 @@
             var circles = svg.selectAll("circle");
             circles.remove();
             drawBubbles(selectedYearDataArray, radius, color);
-            //updatePanel();
-            //updatePanelWorld();
+            updatePanelWorld();
         }
 
         // Manually call to instantiate map upon load
