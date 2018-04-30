@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("update2");
+        console.log("remove color");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -72,7 +72,7 @@
             .range([d3.rgb(colorRangeStart), d3.rgb(colorRangeEnd)]);
 
         // Make slider
-        makeSlider(dataArray, radius, color);
+        makeSlider(dataArray, radius);
 
         // Make legend
         makeLegend();
@@ -228,7 +228,7 @@
         d3.select('#map').select('svg').call(zoom);
     }
 
-    function makeSlider(dataArray, radius, color) {
+    function makeSlider(dataArray, radius) {
         var margin = {right: 15, left: 15},
             containerWidth = 840,
             containerHeight = 40;
