@@ -38,7 +38,7 @@
         });
     }
 
-    function loadAttackData() {
+    function loadServedData() {
         d3.csv("food_data3.csv", function(rows) {
             dataArray = rows;
             // this method will not be called until the above data is fully loaded
@@ -98,7 +98,7 @@
     var path = d3.geoPath().projection(projection);
 
     function ready (error, data) {
-        loadAttackData();
+        loadServedData();
         countries = topojson.feature(data, data.objects.boroughs).features;
         drawCountries(data);
     }
