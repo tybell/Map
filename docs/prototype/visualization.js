@@ -26,8 +26,10 @@
     var selectedYearDataArray;
     var boroughs;
 
+    var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others"];
+
     function loadGlobalData() {
-        console.log("change to boroughs");
+        console.log("add legend");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -61,7 +63,7 @@
         makeSlider(dataArray, radius);
 
         // Make legend
-        //makeLegend();
+        makeLegend(legendVals);
     }
 
     // for creating an array of years 1970-2015
@@ -71,7 +73,7 @@
                 return index + start;
             });
     }
-    // *********END CARSON STUFF
+
     var nyc_center = [-74,40.7];
     var mapRatio = 1;
     var mapRatioAdjuster = 100;
@@ -297,6 +299,62 @@
         // Manually call to instantiate map upon load
         handleDrag(x.invert(0));
     }
+    function makeLegend(legendVals) {
+        // size
+        var sizeHeight = 130,
+            sizeWidth = 300;
+        console.log(legendVals);
+        var svgLegned = d3.select("#legend").append("svg")
+            .attr("width", sizeWidth).attr("height", sizeHeight);
+        var legend = svgLegned.selectAll('#legend')
+            .data(legendVals)
+            .enter().append('g')
+            // .attr("class", "legends3")
+            .attr("transform", function (d, i) {
+                {
+                    return "translate(0," + i * 20 + ")"
+                }
+            })
 
+        legend.append('rect')
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 12)
+            .attr("height", 12)
+            .style("fill",function(d){
+                if (d == " "){
+                    return "#fafafa" //background color
+                }
+                else if (d == "Soup Kitchen"){
+                    return "#0082c8" //Blue
+                }
+                else if (d == "Food Pantry"){
+                    return "#f58231" // Orange
+                }
+                else if (d == "Shelter"){
+                    return "#3cb44b" // Green
+                }
+                else if (d == "Senior Center"){
+                    return "#ffe119" // Yellow
+                }
+                else if (d == "Day Care"){
+                    return "#e6194b" // Red
+                }
+                else{
+                    return "#911eb4" // Purple
+                }
+            })
+
+        legend.append('text')
+            .attr("x", 20)
+            .attr("y", 10)
+            //.attr("dy", ".35em")
+            .text(function (d) {
+                return d
+            })
+           //.style("text-anchor", "start")
+            .style("font-size", 15)
+
+    }
 
 }) ();
