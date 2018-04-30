@@ -47,7 +47,6 @@
     }
 
     function dataArrayLoaded() {
-        // Num killed
         var numServed = [];
         for (var i = 0; i < dataArray.length; i++) {
             numServed.push(dataArray[i].csn_total);
@@ -124,10 +123,10 @@
             })
     }
 
-    function drawBubbles(attackData, radius, color) {
+    function drawBubbles(serveData, radius) {
         // make bubbles on map
         var bubbles = g.selectAll(".bubbles")
-            .data(attackData)
+            .data(serveData)
             .enter().append("circle")
             .attr("r", function (d) {
                 return radius(d.csn_total);
@@ -158,7 +157,6 @@
             	}
             	else{
             		return "#911eb4" // Purple
-                	//return color(d.num_attacks);
             	}
             })
             .style("opacity", 0.7)
@@ -306,7 +304,7 @@
             // clear old circles and draw new
             var circles = svg.selectAll("circle");
             circles.remove();
-            drawBubbles(selectedYearDataArray, radius, color);
+            drawBubbles(selectedYearDataArray, radius);
             updatePanelWorld();
         }
 
