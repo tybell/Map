@@ -8,5 +8,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="d3.v4" level="application" />
+    <orderEntry type="library" name="jquery-1.12.0" level="application" />
+    <orderEntry type="library" name="jquery-migrate-1.2.1" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="d3-legend" level="application" />
+    <orderEntry type="library" name="@types/d3" level="application" />
+    <orderEntry type="library" name="@types/d3-geo" level="application" />
+    <orderEntry type="library" name="@types/geojson" level="application" />
+    <orderEntry type="library" name="@types/topojson" level="application" />
+    <orderEntry type="library" name="moment" level="application" />
+    <orderEntry type="library" name="topojson.v2" level="application" />
+    <orderEntry type="library" name="d3.v3" level="application" />
   </component>
 </module>

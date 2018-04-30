@@ -5,7 +5,6 @@
     var sizeMax;
     var rangeMin = 2;
     var rangeMax = 50;
-
     var height = 500*1.5,
         width = 770*1.5;
 
