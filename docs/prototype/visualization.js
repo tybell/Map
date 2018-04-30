@@ -30,7 +30,7 @@
     var countries;
 
     function loadGlobalData() {
-        console.log("remove color");
+        console.log("remove legend");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -75,7 +75,7 @@
         makeSlider(dataArray, radius);
 
         // Make legend
-        makeLegend();
+        //makeLegend();
     }
 
     // for creating an array of years 1970-2015
@@ -312,67 +312,67 @@
         handleDrag(x.invert(0));
     }
 
-    function makeLegend() {
-        // size
-        var sizeHeight = 130,
-            sizeWidth = 300;
+    // function makeLegend() {
+    //     // size
+    //     var sizeHeight = 130,
+    //         sizeWidth = 300;
 
-        var sqrtSize = d3.scaleSqrt()
-            .domain([sizeMin, sizeMax])
-            .range([rangeMin, rangeMax]);
+    //     var sqrtSize = d3.scaleSqrt()
+    //         .domain([sizeMin, sizeMax])
+    //         .range([rangeMin, rangeMax]);
 
-        var sizeSvg = d3.select("#legend")
-            .append("svg")
-            .attr("height", sizeHeight)
-            .attr("width", sizeWidth);
+    //     var sizeSvg = d3.select("#legend")
+    //         .append("svg")
+    //         .attr("height", sizeHeight)
+    //         .attr("width", sizeWidth);
 
-        sizeSvg.append("g")
-            .attr("class", "legendSize")
-            .attr("transform", "translate(30, 40)");
+    //     sizeSvg.append("g")
+    //         .attr("class", "legendSize")
+    //         .attr("transform", "translate(30, 40)");
 
-        var legendSize = d3.legendSize()
-            .scale(sqrtSize)
-            .shape('circle')
-            .shapePadding(22)
-            .labelOffset(15)
-            .cells(5)
-            .cellFilter(function(d) {
-                if (d.data > 12000 || d.data < 5) {
-                    return false;
-                }
-                return true;
-            })
-            .orient("horizontal")
-            .labels(["1", "fewer", " ", "more deaths"]);
+    //     var legendSize = d3.legendSize()
+    //         .scale(sqrtSize)
+    //         .shape('circle')
+    //         .shapePadding(22)
+    //         .labelOffset(15)
+    //         .cells(5)
+    //         .cellFilter(function(d) {
+    //             if (d.data > 12000 || d.data < 5) {
+    //                 return false;
+    //             }
+    //             return true;
+    //         })
+    //         .orient("horizontal")
+    //         .labels(["1", "fewer", " ", "more deaths"]);
 
-        sizeSvg.select(".legendSize")
-            .call(legendSize);
+    //     sizeSvg.select(".legendSize")
+    //         .call(legendSize);
 
-        // gradient
-        var gradientHeight = 60,
-            gradientWidth = 300;
+    //     // gradient
+    //     var gradientHeight = 60,
+    //         gradientWidth = 300;
 
-        var gradientSvg = d3.select("#legend")
-            .append("svg")
-            .attr("height", gradientHeight)
-            .attr("width", gradientWidth);
+    //     var gradientSvg = d3.select("#legend")
+    //         .append("svg")
+    //         .attr("height", gradientHeight)
+    //         .attr("width", gradientWidth);
 
-        var linear = d3.scaleLinear()
-            .domain([0,10])
-            .range([colorRangeStart, colorRangeEnd]);
+    //     var linear = d3.scaleLinear()
+    //         .domain([0,10])
+    //         .range([colorRangeStart, colorRangeEnd]);
 
-        gradientSvg.append("g")
-            .attr("class", "legendLinear")
-            .attr("transform", "translate(10,20)");
+    //     gradientSvg.append("g")
+    //         .attr("class", "legendLinear")
+    //         .attr("transform", "translate(10,20)");
 
-        var legendLinear = d3.legendColor()
-            .shapeWidth(43)
-            .orient('horizontal')
-            .scale(linear)
-            .labels(["fewer", " ", " ", " ", "more attacks"]);
+    //     var legendLinear = d3.legendColor()
+    //         .shapeWidth(43)
+    //         .orient('horizontal')
+    //         .scale(linear)
+    //         .labels(["fewer", " ", " ", " ", "more attacks"]);
 
-        gradientSvg.select(".legendLinear")
-            .call(legendLinear);
-    }
+    //     gradientSvg.select(".legendLinear")
+    //         .call(legendLinear);
+    // }
 
 }) ();
