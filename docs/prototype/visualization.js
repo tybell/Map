@@ -26,10 +26,10 @@
     var selectedYearDataArray;
     var boroughs;
 
-    var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others"];
+    var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others", " "];
 
     function loadGlobalData() {
-        console.log("add legend");
+        console.log("add legend space");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
