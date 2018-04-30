@@ -27,10 +27,10 @@
     var dataArray;
     var globalData;
     var selectedYearDataArray;
-    var countries;
+    var boroughs;
 
     function loadGlobalData() {
-        console.log("remove color");
+        console.log("change to boroughs");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -98,15 +98,15 @@
 
     function ready (error, data) {
         loadServedData();
-        countries = topojson.feature(data, data.objects.boroughs).features;
-        drawCountries(data);
+        boroughs = topojson.feature(data, data.objects.boroughs).features;
+        drawBoroughs(data);
     }
 
-    function drawCountries (data) {
-        g.selectAll(".country")
-            .data(countries)
+    function drawBoroughs (data) {
+        g.selectAll(".borough")
+            .data(boroughs)
             .enter().append("path")
-            .attr("class", "country")
+            .attr("class", "borough")
             .attr("d", path)
             .on('mouseover', function(d) {
                 d3.select(this).classed("selected", true)
