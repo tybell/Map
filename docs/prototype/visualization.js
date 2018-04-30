@@ -210,8 +210,8 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
                 + "<br/> Number of Facilities: " + d.num_killed
-                + "<br/> Number Served: " + d.num_attacked
-                + "<br/> Number Served since 2000: " + d.total_served);
+                + "<br/> People Served: " + d.num_attacked
+                + "<br/> Total People Served: " + d.total_served);
     }
 
     function customZoom(bubbles, radius) {
