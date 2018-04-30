@@ -208,9 +208,10 @@
         });
 
         d3.select("#panelInfo")
-            .html("<span id=\"countryTitle\">" + currYear + " | World</span>"
-                + "<br/> Number served: " + d.num_killed
-                + "<br/> Number of children served: " + d.num_attacks);
+            .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
+                + "<br/> Number of Facilities: " + d.num_killed
+                + "<br/> Number Served: " + d.num_attacks
+                + "<br/> Number Served since 2000: " + d.total_served);
     }
 
     function customZoom(bubbles, radius) {
