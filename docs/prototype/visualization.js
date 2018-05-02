@@ -184,7 +184,9 @@
                 + "<br/> Seniors served: " + d.csn_seniors
                 + "<br/> Children served: " + d.csn_children);
     }
-
+    function commafy( num ) {
+        num.toString().replace( /\B(?=(?:\d{3})+)$/g, "," );
+    }
     function updatePanelWorld() {
         var d;
         globalData.forEach(function(entry) {
@@ -196,8 +198,8 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
                 + "<br/> Number of Facilities: " + d.num_facilities
-                + "<br/> People Served: " + (d.num_served).toLocaleString('en')
-                + "<br/> Total People Served: " + (d.total_served).toLocaleString('en'));
+                + "<br/> People Served: " + commafy(d.num_served.toString())
+                + "<br/> Total People Served: " + commafy(d.total_served.toString());
     }
 
     function customZoom(bubbles, radius) {
