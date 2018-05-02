@@ -179,10 +179,10 @@
             .html("<span id=\"countryTitle\">" + currYear + " | " + d.EFP + "</span>"
             	+ "<br/> Address: " + d.DistributionAddress
             	+ "<br/> Facility Type: " + d.FacilityType
-                + "<br/> Total served: " + d.csn_total
-                + "<br/> Adults served: " + d.csn_adults
-                + "<br/> Seniors served: " + d.csn_seniors
-                + "<br/> Children served: " + d.csn_children);
+                + "<br/> Total served: " + Intl.NumberFormat().format(d.csn_total)
+                + "<br/> Adults served: " + Intl.NumberFormat().format(d.csn_adults)
+                + "<br/> Seniors served: " + Intl.NumberFormat().format(d.csn_seniors)
+                + "<br/> Children served: " + Intl.NumberFormat().format(d.csn_children));
     }
     function commafy( num ) {
         num.toString().replace( /\B(?=(?:\d{3})+)$/g, "," );
