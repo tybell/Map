@@ -199,7 +199,7 @@
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
                 + "<br/> Number of Facilities: " + d.num_facilities
                 + "<br/> People Served: " + commafy(d.num_served.toString())
-                + "<br/> Total People Served: " + commafy(d.total_served.toString());
+                + "<br/> Total People Served: " + commafy(d.total_served.toString()));
     }
 
     function customZoom(bubbles, radius) {
