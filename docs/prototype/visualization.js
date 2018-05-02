@@ -29,7 +29,7 @@
     var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others", "  "];
 
     function loadGlobalData() {
-        console.log("add legend space2");
+        console.log("commafy");
         d3.csv("global2.csv", function(rows) {
             globalData = rows;
             updatePanelWorld();
@@ -198,8 +198,8 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
                 + "<br/> Number of Facilities: " + d.num_facilities
-                + "<br/> People Served: " + commafy(d.num_served.toString())
-                + "<br/> Total People Served: " + commafy(d.total_served.toString()));
+                + "<br/> People Served: " + Intl.NumberFormat().format(d.num_served)
+                + "<br/> Total People Served: " + Intl.NumberFormat().format(d.total_served));
     }
 
     function customZoom(bubbles, radius) {
