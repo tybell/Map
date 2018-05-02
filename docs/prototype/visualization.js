@@ -196,8 +196,8 @@
         d3.select("#panelInfo")
             .html("<span id=\"countryTitle\">" + currYear + " | All Boroughs</span>"
                 + "<br/> Number of Facilities: " + d.num_facilities
-                + "<br/> People Served: " + (d.num_served).toLocaleString()
-                + "<br/> Total People Served: " + (d.total_served).toLocaleString());
+                + "<br/> People Served: " + (d.num_served).toLocaleString('en')
+                + "<br/> Total People Served: " + (d.total_served).toLocaleString('en'));
     }
 
     function customZoom(bubbles, radius) {
