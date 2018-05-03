@@ -303,7 +303,7 @@
     }
     function makeLegend(legendVals) {
         // size
-        var sizeHeight = 130,
+        var sizeHeight = 200,
             sizeWidth = 300;
         console.log(legendVals);
         var svgLegned = d3.select("#legend").append("svg")
