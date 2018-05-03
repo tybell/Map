@@ -352,7 +352,7 @@
 
         legend.append('text')
             .attr("x", 30)
-            .attr("y", 12)
+            .attr("y", 4)
             //.attr("dy", ".35em")
             .text(function (d) {
                 return d
