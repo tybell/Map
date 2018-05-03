@@ -26,7 +26,7 @@
     var selectedYearDataArray;
     var boroughs;
 
-    var legendVals = [" ","Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others", "  "];
+    var legendVals = ["Soup Kitchen","Food Pantry","Shelter","Senior Center","Day Care","Others"];
 
     function loadGlobalData() {
         console.log("commafy");
@@ -322,7 +322,7 @@
             .attr("x", 5)
             .attr("y", 0)
             .attr("width", 20)
-            .attr("height", 12)
+            .attr("height", 10)
             .style("fill",function(d){
                 if (d == " "){
                     return "#fafafa" //background color
@@ -352,7 +352,7 @@
 
         legend.append('text')
             .attr("x", 30)
-            .attr("y", 4)
+            .attr("y", 12)
             //.attr("dy", ".35em")
             .text(function (d) {
                 return d
