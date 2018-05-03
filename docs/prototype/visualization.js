@@ -322,7 +322,7 @@
             .attr("x", 5)
             .attr("y", 0)
             .attr("width", 20)
-            .attr("height", 20)
+            .attr("height", 12)
             .style("fill",function(d){
                 if (d == " "){
                     return "#fafafa" //background color
