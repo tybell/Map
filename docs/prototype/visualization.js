@@ -321,8 +321,8 @@
         legend.append('rect')
             .attr("x", 0)
             .attr("y", 0)
-            .attr("width", 18)
-            .attr("height", 18)
+            .attr("width", 22)
+            .attr("height", 22)
             .style("fill",function(d){
                 if (d == " "){
                     return "#fafafa" //background color
@@ -358,7 +358,7 @@
                 return d
             })
            //.style("text-anchor", "start")
-            .style("font-size", 22)
+            .style("font-size", 24)
 
     }
 
