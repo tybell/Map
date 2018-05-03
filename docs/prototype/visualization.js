@@ -319,10 +319,10 @@
             })
 
         legend.append('rect')
-            .attr("x", 0)
-            .attr("y", 0)
-            .attr("width", 22)
-            .attr("height", 22)
+            .attr("x", 5)
+            .attr("y", 5)
+            .attr("width", 20)
+            .attr("height", 20)
             .style("fill",function(d){
                 if (d == " "){
                     return "#fafafa" //background color
